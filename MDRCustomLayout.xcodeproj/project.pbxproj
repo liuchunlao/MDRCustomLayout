@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D93DFD171CD493F400A62377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD161CD493F400A62377 /* main.m */; };
+		D93DFD1A1CD493F400A62377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD191CD493F400A62377 /* AppDelegate.m */; };
+		D93DFD221CD493F400A62377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD211CD493F400A62377 /* Assets.xcassets */; };
+		D93DFD251CD493F400A62377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD231CD493F400A62377 /* LaunchScreen.storyboard */; };
+		D93DFD331CD4949300A62377 /* MDRCustomOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD321CD4949300A62377 /* MDRCustomOne.m */; };
+		D93DFD361CD49CDF00A62377 /* MDRCustomTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD351CD49CDF00A62377 /* MDRCustomTwo.m */; };
+		D93DFD391CD4A3C600A62377 /* MDRCustomThree.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD381CD4A3C600A62377 /* MDRCustomThree.m */; };
+		D93DFD461CD4C26A00A62377 /* MDRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD411CD4C26A00A62377 /* MDRViewController.m */; };
+		D93DFD471CD4C26A00A62377 /* MDRCustomLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD441CD4C26A00A62377 /* MDRCustomLayoutCell.m */; };
+		D93DFD481CD4C26A00A62377 /* MDRCustomLayoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD451CD4C26A00A62377 /* MDRCustomLayoutCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D93DFD121CD493F400A62377 /* MDRCustomLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDRCustomLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93DFD161CD493F400A62377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D93DFD181CD493F400A62377 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D93DFD191CD493F400A62377 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D93DFD211CD493F400A62377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D93DFD241CD493F400A62377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D93DFD261CD493F400A62377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93DFD311CD4949300A62377 /* MDRCustomOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomOne.h; sourceTree = "<group>"; };
+		D93DFD321CD4949300A62377 /* MDRCustomOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomOne.m; sourceTree = "<group>"; };
+		D93DFD341CD49CDF00A62377 /* MDRCustomTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomTwo.h; sourceTree = "<group>"; };
+		D93DFD351CD49CDF00A62377 /* MDRCustomTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomTwo.m; sourceTree = "<group>"; };
+		D93DFD371CD4A3C600A62377 /* MDRCustomThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomThree.h; sourceTree = "<group>"; };
+		D93DFD381CD4A3C600A62377 /* MDRCustomThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomThree.m; sourceTree = "<group>"; };
+		D93DFD401CD4C26A00A62377 /* MDRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRViewController.h; sourceTree = "<group>"; };
+		D93DFD411CD4C26A00A62377 /* MDRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRViewController.m; sourceTree = "<group>"; };
+		D93DFD431CD4C26A00A62377 /* MDRCustomLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomLayoutCell.h; sourceTree = "<group>"; };
+		D93DFD441CD4C26A00A62377 /* MDRCustomLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomLayoutCell.m; sourceTree = "<group>"; };
+		D93DFD451CD4C26A00A62377 /* MDRCustomLayoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDRCustomLayoutCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D93DFD0F1CD493F400A62377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D93DFD091CD493F400A62377 = {
+			isa = PBXGroup;
+			children = (
+				D93DFD141CD493F400A62377 /* MDRCustomLayout */,
+				D93DFD131CD493F400A62377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D93DFD131CD493F400A62377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D93DFD121CD493F400A62377 /* MDRCustomLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D93DFD141CD493F400A62377 /* MDRCustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D93DFD3F1CD4C26A00A62377 /* Controller */,
+				D93DFD421CD4C26A00A62377 /* View */,
+				D93DFD2D1CD4942300A62377 /* Other */,
+				D93DFD2C1CD4941F00A62377 /* CustomLayout */,
+				D93DFD151CD493F400A62377 /* Supporting Files */,
+			);
+			path = MDRCustomLayout;
+			sourceTree = "<group>";
+		};
+		D93DFD151CD493F400A62377 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D93DFD211CD493F400A62377 /* Assets.xcassets */,
+				D93DFD231CD493F400A62377 /* LaunchScreen.storyboard */,
+				D93DFD261CD493F400A62377 /* Info.plist */,
+				D93DFD161CD493F400A62377 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D93DFD2C1CD4941F00A62377 /* CustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D93DFD311CD4949300A62377 /* MDRCustomOne.h */,
+				D93DFD321CD4949300A62377 /* MDRCustomOne.m */,
+				D93DFD341CD49CDF00A62377 /* MDRCustomTwo.h */,
+				D93DFD351CD49CDF00A62377 /* MDRCustomTwo.m */,
+				D93DFD371CD4A3C600A62377 /* MDRCustomThree.h */,
+				D93DFD381CD4A3C600A62377 /* MDRCustomThree.m */,
+			);
+			path = CustomLayout;
+			sourceTree = "<group>";
+		};
+		D93DFD2D1CD4942300A62377 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D93DFD181CD493F400A62377 /* AppDelegate.h */,
+				D93DFD191CD493F400A62377 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		D93DFD3F1CD4C26A00A62377 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D93DFD401CD4C26A00A62377 /* MDRViewController.h */,
+				D93DFD411CD4C26A00A62377 /* MDRViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D93DFD421CD4C26A00A62377 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D93DFD431CD4C26A00A62377 /* MDRCustomLayoutCell.h */,
+				D93DFD441CD4C26A00A62377 /* MDRCustomLayoutCell.m */,
+				D93DFD451CD4C26A00A62377 /* MDRCustomLayoutCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D93DFD111CD493F400A62377 /* MDRCustomLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93DFD291CD493F400A62377 /* Build configuration list for PBXNativeTarget "MDRCustomLayout" */;
+			buildPhases = (
+				D93DFD0E1CD493F400A62377 /* Sources */,
+				D93DFD0F1CD493F400A62377 /* Frameworks */,
+				D93DFD101CD493F400A62377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDRCustomLayout;
+			productName = MDRCustomLayout;
+			productReference = D93DFD121CD493F400A62377 /* MDRCustomLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D93DFD0A1CD493F400A62377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liuchunlao;
+				TargetAttributes = {
+					D93DFD111CD493F400A62377 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2H6E4PD22B;
+					};
+				};
+			};
+			buildConfigurationList = D93DFD0D1CD493F400A62377 /* Build configuration list for PBXProject "MDRCustomLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D93DFD091CD493F400A62377;
+			productRefGroup = D93DFD131CD493F400A62377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D93DFD111CD493F400A62377 /* MDRCustomLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D93DFD101CD493F400A62377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93DFD481CD4C26A00A62377 /* MDRCustomLayoutCell.xib in Resources */,
+				D93DFD251CD493F400A62377 /* LaunchScreen.storyboard in Resources */,
+				D93DFD221CD493F400A62377 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D93DFD0E1CD493F400A62377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93DFD461CD4C26A00A62377 /* MDRViewController.m in Sources */,
+				D93DFD1A1CD493F400A62377 /* AppDelegate.m in Sources */,
+				D93DFD391CD4A3C600A62377 /* MDRCustomThree.m in Sources */,
+				D93DFD331CD4949300A62377 /* MDRCustomOne.m in Sources */,
+				D93DFD361CD49CDF00A62377 /* MDRCustomTwo.m in Sources */,
+				D93DFD471CD4C26A00A62377 /* MDRCustomLayoutCell.m in Sources */,
+				D93DFD171CD493F400A62377 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D93DFD231CD493F400A62377 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D93DFD241CD493F400A62377 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D93DFD271CD493F400A62377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D93DFD281CD493F400A62377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D93DFD2A1CD493F400A62377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MDRCustomLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.MDRCustomLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D93DFD2B1CD493F400A62377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MDRCustomLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.MDRCustomLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D93DFD0D1CD493F400A62377 /* Build configuration list for PBXProject "MDRCustomLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93DFD271CD493F400A62377 /* Debug */,
+				D93DFD281CD493F400A62377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93DFD291CD493F400A62377 /* Build configuration list for PBXNativeTarget "MDRCustomLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93DFD2A1CD493F400A62377 /* Debug */,
+				D93DFD2B1CD493F400A62377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D93DFD0A1CD493F400A62377 /* Project object */;
+}
