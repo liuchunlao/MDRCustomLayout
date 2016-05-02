@@ -13,7 +13,7 @@
 #import "MDRCustomLayoutCell.h"
 
 
-@interface MDRViewController () <UICollectionViewDataSource>
+@interface MDRViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
 
 @end
 
@@ -28,28 +28,33 @@ static NSString *ID = @"collectionCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.edgesForExtendedLayout = UIRectEdgeTop | UIRectEdgeBottom;
+//    self.edgesForExtendedLayout = UIRectEdgeTop | UIRectEdgeBottom;
     
+    // MARK: - segment控件
     UISegmentedControl *segment = [[UISegmentedControl alloc] initWithItems:@[@"one", @"tow", @"three"]];
     
     [segment addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
     self.navigationItem.titleView = segment;
     
     
+    // MARK: - collectionViewDelegate
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:[[MDRCustomThree alloc] init]];
     
+    // 分页
     collectionView.pagingEnabled = YES;
+    
+    // 数据源和代理对象
     collectionView.dataSource = self;
+    collectionView.delegate = self;
     
     collectionView.backgroundColor = [UIColor yellowColor];
     
     [collectionView registerNib:[UINib nibWithNibName:@"MDRCustomLayoutCell" bundle:nil] forCellWithReuseIdentifier:ID];
     
-    
     [self.view addSubview:collectionView];
     _collectionView = collectionView;
     
-
+    // MARK: - 横屏时铺满屏幕
     collectionView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 }
 
@@ -81,7 +86,7 @@ static NSString *ID = @"collectionCell";
     }
     
     [_collectionView setCollectionViewLayout:layout animated:YES];
-    
+    [_collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0] atScrollPosition:UICollectionViewScrollPositionTop | UICollectionViewScrollPositionLeft animated:YES];
 }
 
 
@@ -100,9 +105,14 @@ static NSString *ID = @"collectionCell";
     
     cell.name = [NSString stringWithFormat:@"这是第 %zd 个 item", indexPath.item];
     
-    NSLog(@"%zd", indexPath.item);
-    
     return cell;
+}
+
+#pragma mark - UICollectionViewDelegate
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+
+    NSLog(@"选中了第 %@ 个item", @(indexPath.item));
+    
 }
 
 @end
