@@ -28,8 +28,6 @@ static NSString *ID = @"collectionCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    self.edgesForExtendedLayout = UIRectEdgeTop | UIRectEdgeBottom;
-    
     // MARK: - segment控件
     UISegmentedControl *segment = [[UISegmentedControl alloc] initWithItems:@[@"one", @"tow", @"three"]];
     
@@ -69,6 +67,7 @@ static NSString *ID = @"collectionCell";
             layout = [[MDRCustomOne alloc] init];
             
             break;
+            
         case 1:
             
             layout = [[MDRCustomTwo alloc] init];
@@ -85,8 +84,14 @@ static NSString *ID = @"collectionCell";
             break;
     }
     
-    [_collectionView setCollectionViewLayout:layout animated:YES];
-    [_collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0] atScrollPosition:UICollectionViewScrollPositionTop | UICollectionViewScrollPositionLeft animated:YES];
+    // MARK: - 防止循环引用
+    typeof (_collectionView) weakCollectionView = _collectionView;
+    [_collectionView setCollectionViewLayout:layout animated:YES completion:^(BOOL finished) {
+        
+        [weakCollectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0] atScrollPosition:UICollectionViewScrollPositionTop | UICollectionViewScrollPositionLeft animated:YES];
+        
+    }];
+    
 }
 
 

@@ -115,7 +115,7 @@
         attr.frame = CGRectMake(lastAttr.frame.origin.x, lastAttr.frame.origin.y + 2 * biggerH, lastAttr.frame.size.width, lastAttr.frame.size.height);
         
     }
-    NSLog(@"%@", NSStringFromCGRect(attr.frame));
+//    NSLog(@"%@", NSStringFromCGRect(attr.frame));
     
     return attr;
     
