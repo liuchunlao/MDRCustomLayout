@@ -15,6 +15,7 @@
 		D906739E1CEEFDE6004BE139 /* MDRCustomLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673971CEEFDE6004BE139 /* MDRCustomLayoutCell.m */; };
 		D906739F1CEEFDE6004BE139 /* MDRCustomLayoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90673981CEEFDE6004BE139 /* MDRCustomLayoutCell.xib */; };
 		D90673A21CEEFE39004BE139 /* MDRListController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673A11CEEFE39004BE139 /* MDRListController.m */; };
+		D90673A51CEF03FE004BE139 /* MDRLinerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673A41CEF03FE004BE139 /* MDRLinerController.m */; };
 		D93DFD171CD493F400A62377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD161CD493F400A62377 /* main.m */; };
 		D93DFD221CD493F400A62377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD211CD493F400A62377 /* Assets.xcassets */; };
 		D93DFD251CD493F400A62377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD231CD493F400A62377 /* LaunchScreen.storyboard */; };
@@ -36,6 +37,8 @@
 		D90673981CEEFDE6004BE139 /* MDRCustomLayoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDRCustomLayoutCell.xib; sourceTree = "<group>"; };
 		D90673A01CEEFE39004BE139 /* MDRListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRListController.h; sourceTree = "<group>"; };
 		D90673A11CEEFE39004BE139 /* MDRListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRListController.m; sourceTree = "<group>"; };
+		D90673A31CEF03FE004BE139 /* MDRLinerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRLinerController.h; sourceTree = "<group>"; };
+		D90673A41CEF03FE004BE139 /* MDRLinerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRLinerController.m; sourceTree = "<group>"; };
 		D93DFD121CD493F400A62377 /* MDRCustomLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDRCustomLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93DFD161CD493F400A62377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D93DFD211CD493F400A62377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,10 +72,12 @@
 		D90673871CEEFDE6004BE139 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D90673881CEEFDE6004BE139 /* MDRViewController.h */,
-				D90673891CEEFDE6004BE139 /* MDRViewController.m */,
 				D90673A01CEEFE39004BE139 /* MDRListController.h */,
 				D90673A11CEEFE39004BE139 /* MDRListController.m */,
+				D90673881CEEFDE6004BE139 /* MDRViewController.h */,
+				D90673891CEEFDE6004BE139 /* MDRViewController.m */,
+				D90673A31CEF03FE004BE139 /* MDRLinerController.h */,
+				D90673A41CEF03FE004BE139 /* MDRLinerController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			files = (
 				D90673991CEEFDE6004BE139 /* MDRViewController.m in Sources */,
 				D90673A21CEEFE39004BE139 /* MDRListController.m in Sources */,
+				D90673A51CEF03FE004BE139 /* MDRLinerController.m in Sources */,
 				D906739E1CEEFDE6004BE139 /* MDRCustomLayoutCell.m in Sources */,
 				D906739B1CEEFDE6004BE139 /* MDRCustomThree.m in Sources */,
 				D906739D1CEEFDE6004BE139 /* AppDelegate.m in Sources */,
