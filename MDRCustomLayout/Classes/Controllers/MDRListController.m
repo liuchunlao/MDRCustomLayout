@@ -103,7 +103,7 @@ NSString * const cellID = @"cellID";
                                             @"title"    : @"custom layout",
                                             @"targetVc" : @"MDRViewController"
                                             }
-                                 ]
+                                        ]
                          },
                      
                      // 第1组
@@ -114,11 +114,22 @@ NSString * const cellID = @"cellID";
                                             @"title"    : @"liner",
                                             @"targetVc" : @"MDRLinerController"
                                             }
-                                 ]
-                         }
+                                        ]
+                         },
                          
                      // 第2组
-//                     @{}
+                     @{
+                         @"header"  : @"other",
+                         @"items"   : @[
+                                        @{
+                                            @"title"    : @"frosted glass",
+                                            @"targetVc" : @"MDRGlassController"
+                                            }
+                                        
+                                 
+                                        ]
+                         
+                         }
                      
                      ];
     }
