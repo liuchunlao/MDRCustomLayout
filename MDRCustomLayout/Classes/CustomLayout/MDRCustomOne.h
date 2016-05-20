@@ -1,5 +1,5 @@
 //
-//  MDRCustomTwo.h
+//  MDRCustomOne.h
 //  MDRCustomLayout
 //
 //  Created by 刘春牢 on 16/4/30.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MDRCustomTwo : UICollectionViewLayout
+@interface MDRCustomOne : UICollectionViewFlowLayout
 
 @end

@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90673991CEEFDE6004BE139 /* MDRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673891CEEFDE6004BE139 /* MDRViewController.m */; };
+		D906739A1CEEFDE6004BE139 /* MDRCustomOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D906738C1CEEFDE6004BE139 /* MDRCustomOne.m */; };
+		D906739B1CEEFDE6004BE139 /* MDRCustomThree.m in Sources */ = {isa = PBXBuildFile; fileRef = D906738E1CEEFDE6004BE139 /* MDRCustomThree.m */; };
+		D906739C1CEEFDE6004BE139 /* MDRCustomTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673901CEEFDE6004BE139 /* MDRCustomTwo.m */; };
+		D906739D1CEEFDE6004BE139 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673941CEEFDE6004BE139 /* AppDelegate.m */; };
+		D906739E1CEEFDE6004BE139 /* MDRCustomLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673971CEEFDE6004BE139 /* MDRCustomLayoutCell.m */; };
+		D906739F1CEEFDE6004BE139 /* MDRCustomLayoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90673981CEEFDE6004BE139 /* MDRCustomLayoutCell.xib */; };
 		D93DFD171CD493F400A62377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD161CD493F400A62377 /* main.m */; };
-		D93DFD1A1CD493F400A62377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD191CD493F400A62377 /* AppDelegate.m */; };
 		D93DFD221CD493F400A62377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD211CD493F400A62377 /* Assets.xcassets */; };
 		D93DFD251CD493F400A62377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD231CD493F400A62377 /* LaunchScreen.storyboard */; };
-		D93DFD331CD4949300A62377 /* MDRCustomOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD321CD4949300A62377 /* MDRCustomOne.m */; };
-		D93DFD361CD49CDF00A62377 /* MDRCustomTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD351CD49CDF00A62377 /* MDRCustomTwo.m */; };
-		D93DFD391CD4A3C600A62377 /* MDRCustomThree.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD381CD4A3C600A62377 /* MDRCustomThree.m */; };
-		D93DFD461CD4C26A00A62377 /* MDRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD411CD4C26A00A62377 /* MDRViewController.m */; };
-		D93DFD471CD4C26A00A62377 /* MDRCustomLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD441CD4C26A00A62377 /* MDRCustomLayoutCell.m */; };
-		D93DFD481CD4C26A00A62377 /* MDRCustomLayoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD451CD4C26A00A62377 /* MDRCustomLayoutCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D90673881CEEFDE6004BE139 /* MDRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRViewController.h; sourceTree = "<group>"; };
+		D90673891CEEFDE6004BE139 /* MDRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRViewController.m; sourceTree = "<group>"; };
+		D906738B1CEEFDE6004BE139 /* MDRCustomOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomOne.h; sourceTree = "<group>"; };
+		D906738C1CEEFDE6004BE139 /* MDRCustomOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomOne.m; sourceTree = "<group>"; };
+		D906738D1CEEFDE6004BE139 /* MDRCustomThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomThree.h; sourceTree = "<group>"; };
+		D906738E1CEEFDE6004BE139 /* MDRCustomThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomThree.m; sourceTree = "<group>"; };
+		D906738F1CEEFDE6004BE139 /* MDRCustomTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomTwo.h; sourceTree = "<group>"; };
+		D90673901CEEFDE6004BE139 /* MDRCustomTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomTwo.m; sourceTree = "<group>"; };
+		D90673931CEEFDE6004BE139 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D90673941CEEFDE6004BE139 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D90673961CEEFDE6004BE139 /* MDRCustomLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomLayoutCell.h; sourceTree = "<group>"; };
+		D90673971CEEFDE6004BE139 /* MDRCustomLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomLayoutCell.m; sourceTree = "<group>"; };
+		D90673981CEEFDE6004BE139 /* MDRCustomLayoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDRCustomLayoutCell.xib; sourceTree = "<group>"; };
 		D93DFD121CD493F400A62377 /* MDRCustomLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDRCustomLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93DFD161CD493F400A62377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D93DFD181CD493F400A62377 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D93DFD191CD493F400A62377 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D93DFD211CD493F400A62377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D93DFD241CD493F400A62377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D93DFD261CD493F400A62377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D93DFD311CD4949300A62377 /* MDRCustomOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomOne.h; sourceTree = "<group>"; };
-		D93DFD321CD4949300A62377 /* MDRCustomOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomOne.m; sourceTree = "<group>"; };
-		D93DFD341CD49CDF00A62377 /* MDRCustomTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomTwo.h; sourceTree = "<group>"; };
-		D93DFD351CD49CDF00A62377 /* MDRCustomTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomTwo.m; sourceTree = "<group>"; };
-		D93DFD371CD4A3C600A62377 /* MDRCustomThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomThree.h; sourceTree = "<group>"; };
-		D93DFD381CD4A3C600A62377 /* MDRCustomThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomThree.m; sourceTree = "<group>"; };
-		D93DFD401CD4C26A00A62377 /* MDRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRViewController.h; sourceTree = "<group>"; };
-		D93DFD411CD4C26A00A62377 /* MDRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRViewController.m; sourceTree = "<group>"; };
-		D93DFD431CD4C26A00A62377 /* MDRCustomLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomLayoutCell.h; sourceTree = "<group>"; };
-		D93DFD441CD4C26A00A62377 /* MDRCustomLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomLayoutCell.m; sourceTree = "<group>"; };
-		D93DFD451CD4C26A00A62377 /* MDRCustomLayoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDRCustomLayoutCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +51,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D90673861CEEFDE6004BE139 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D90673871CEEFDE6004BE139 /* Controllers */,
+				D906738A1CEEFDE6004BE139 /* CustomLayout */,
+				D90673911CEEFDE6004BE139 /* Models */,
+				D90673921CEEFDE6004BE139 /* Others */,
+				D90673951CEEFDE6004BE139 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D90673871CEEFDE6004BE139 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D90673881CEEFDE6004BE139 /* MDRViewController.h */,
+				D90673891CEEFDE6004BE139 /* MDRViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D906738A1CEEFDE6004BE139 /* CustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D906738B1CEEFDE6004BE139 /* MDRCustomOne.h */,
+				D906738C1CEEFDE6004BE139 /* MDRCustomOne.m */,
+				D906738D1CEEFDE6004BE139 /* MDRCustomThree.h */,
+				D906738E1CEEFDE6004BE139 /* MDRCustomThree.m */,
+				D906738F1CEEFDE6004BE139 /* MDRCustomTwo.h */,
+				D90673901CEEFDE6004BE139 /* MDRCustomTwo.m */,
+			);
+			path = CustomLayout;
+			sourceTree = "<group>";
+		};
+		D90673911CEEFDE6004BE139 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D90673921CEEFDE6004BE139 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D90673931CEEFDE6004BE139 /* AppDelegate.h */,
+				D90673941CEEFDE6004BE139 /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D90673951CEEFDE6004BE139 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D90673961CEEFDE6004BE139 /* MDRCustomLayoutCell.h */,
+				D90673971CEEFDE6004BE139 /* MDRCustomLayoutCell.m */,
+				D90673981CEEFDE6004BE139 /* MDRCustomLayoutCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D93DFD091CD493F400A62377 = {
 			isa = PBXGroup;
 			children = (
@@ -70,10 +130,7 @@
 		D93DFD141CD493F400A62377 /* MDRCustomLayout */ = {
 			isa = PBXGroup;
 			children = (
-				D93DFD3F1CD4C26A00A62377 /* Controller */,
-				D93DFD421CD4C26A00A62377 /* View */,
-				D93DFD2D1CD4942300A62377 /* Other */,
-				D93DFD2C1CD4941F00A62377 /* CustomLayout */,
+				D90673861CEEFDE6004BE139 /* Classes */,
 				D93DFD151CD493F400A62377 /* Supporting Files */,
 			);
 			path = MDRCustomLayout;
@@ -88,47 +145,6 @@
 				D93DFD161CD493F400A62377 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D93DFD2C1CD4941F00A62377 /* CustomLayout */ = {
-			isa = PBXGroup;
-			children = (
-				D93DFD311CD4949300A62377 /* MDRCustomOne.h */,
-				D93DFD321CD4949300A62377 /* MDRCustomOne.m */,
-				D93DFD341CD49CDF00A62377 /* MDRCustomTwo.h */,
-				D93DFD351CD49CDF00A62377 /* MDRCustomTwo.m */,
-				D93DFD371CD4A3C600A62377 /* MDRCustomThree.h */,
-				D93DFD381CD4A3C600A62377 /* MDRCustomThree.m */,
-			);
-			path = CustomLayout;
-			sourceTree = "<group>";
-		};
-		D93DFD2D1CD4942300A62377 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				D93DFD181CD493F400A62377 /* AppDelegate.h */,
-				D93DFD191CD493F400A62377 /* AppDelegate.m */,
-			);
-			name = Other;
-			sourceTree = "<group>";
-		};
-		D93DFD3F1CD4C26A00A62377 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D93DFD401CD4C26A00A62377 /* MDRViewController.h */,
-				D93DFD411CD4C26A00A62377 /* MDRViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		D93DFD421CD4C26A00A62377 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D93DFD431CD4C26A00A62377 /* MDRCustomLayoutCell.h */,
-				D93DFD441CD4C26A00A62377 /* MDRCustomLayoutCell.m */,
-				D93DFD451CD4C26A00A62377 /* MDRCustomLayoutCell.xib */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D93DFD481CD4C26A00A62377 /* MDRCustomLayoutCell.xib in Resources */,
+				D906739F1CEEFDE6004BE139 /* MDRCustomLayoutCell.xib in Resources */,
 				D93DFD251CD493F400A62377 /* LaunchScreen.storyboard in Resources */,
 				D93DFD221CD493F400A62377 /* Assets.xcassets in Resources */,
 			);
@@ -202,12 +218,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D93DFD461CD4C26A00A62377 /* MDRViewController.m in Sources */,
-				D93DFD1A1CD493F400A62377 /* AppDelegate.m in Sources */,
-				D93DFD391CD4A3C600A62377 /* MDRCustomThree.m in Sources */,
-				D93DFD331CD4949300A62377 /* MDRCustomOne.m in Sources */,
-				D93DFD361CD49CDF00A62377 /* MDRCustomTwo.m in Sources */,
-				D93DFD471CD4C26A00A62377 /* MDRCustomLayoutCell.m in Sources */,
+				D90673991CEEFDE6004BE139 /* MDRViewController.m in Sources */,
+				D906739E1CEEFDE6004BE139 /* MDRCustomLayoutCell.m in Sources */,
+				D906739B1CEEFDE6004BE139 /* MDRCustomThree.m in Sources */,
+				D906739D1CEEFDE6004BE139 /* AppDelegate.m in Sources */,
+				D906739A1CEEFDE6004BE139 /* MDRCustomOne.m in Sources */,
+				D906739C1CEEFDE6004BE139 /* MDRCustomTwo.m in Sources */,
 				D93DFD171CD493F400A62377 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +373,7 @@
 				D93DFD2B1CD493F400A62377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

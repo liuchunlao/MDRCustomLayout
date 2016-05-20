@@ -108,7 +108,7 @@
     CGFloat itemX = insets.left + (itemW + colMargin) * colN + pageNumber * collectW;
     CGFloat itemY = insets.top + (itemH + rowMargin) * rowN;
     
-    NSLog(@"%f", itemX);
+//    NSLog(@"%f", itemX);
     
     attr.frame = CGRectMake(itemX, itemY, itemW, itemH);
     
