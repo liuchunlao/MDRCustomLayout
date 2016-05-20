@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MDRViewController.h"
+#import "MDRListController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +20,7 @@
     
     self.window = [[UIWindow alloc] init];
     
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[MDRViewController alloc] init]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[MDRListController alloc] init]];
     
     [self.window makeKeyAndVisible];
     
