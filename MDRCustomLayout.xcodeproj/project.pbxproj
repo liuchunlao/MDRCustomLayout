@@ -28,6 +28,7 @@
 		D90673CD1CEF0529004BE139 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673C01CEF0529004BE139 /* View+MASAdditions.m */; };
 		D90673CE1CEF0529004BE139 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673C31CEF0529004BE139 /* ViewController+MASAdditions.m */; };
 		D90673D21CEF0551004BE139 /* UIView+MDRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673D11CEF0551004BE139 /* UIView+MDRExtension.m */; };
+		D90673D71CEF063C004BE139 /* MDRLinerFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673D61CEF063C004BE139 /* MDRLinerFlowLayout.m */; };
 		D93DFD171CD493F400A62377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD161CD493F400A62377 /* main.m */; };
 		D93DFD221CD493F400A62377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD211CD493F400A62377 /* Assets.xcassets */; };
 		D93DFD251CD493F400A62377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD231CD493F400A62377 /* LaunchScreen.storyboard */; };
@@ -79,6 +80,8 @@
 		D90673C31CEF0529004BE139 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		D90673D01CEF0551004BE139 /* UIView+MDRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDRExtension.h"; sourceTree = "<group>"; };
 		D90673D11CEF0551004BE139 /* UIView+MDRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDRExtension.m"; sourceTree = "<group>"; };
+		D90673D51CEF063C004BE139 /* MDRLinerFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRLinerFlowLayout.h; sourceTree = "<group>"; };
+		D90673D61CEF063C004BE139 /* MDRLinerFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRLinerFlowLayout.m; sourceTree = "<group>"; };
 		D93DFD121CD493F400A62377 /* MDRCustomLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDRCustomLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93DFD161CD493F400A62377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D93DFD211CD493F400A62377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,6 +106,7 @@
 				D90673921CEEFDE6004BE139 /* Others */,
 				D90673871CEEFDE6004BE139 /* Controllers */,
 				D906738A1CEEFDE6004BE139 /* CustomLayout */,
+				D90673D41CEF061A004BE139 /* Liner */,
 				D90673911CEEFDE6004BE139 /* Models */,
 				D90673951CEEFDE6004BE139 /* Views */,
 				D90673A61CEF0515004BE139 /* Tool */,
@@ -227,6 +231,15 @@
 				D90673D11CEF0551004BE139 /* UIView+MDRExtension.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		D90673D41CEF061A004BE139 /* Liner */ = {
+			isa = PBXGroup;
+			children = (
+				D90673D51CEF063C004BE139 /* MDRLinerFlowLayout.h */,
+				D90673D61CEF063C004BE139 /* MDRLinerFlowLayout.m */,
+			);
+			path = Liner;
 			sourceTree = "<group>";
 		};
 		D93DFD091CD493F400A62377 = {
@@ -357,6 +370,7 @@
 				D906739A1CEEFDE6004BE139 /* MDRCustomOne.m in Sources */,
 				D906739C1CEEFDE6004BE139 /* MDRCustomTwo.m in Sources */,
 				D93DFD171CD493F400A62377 /* main.m in Sources */,
+				D90673D71CEF063C004BE139 /* MDRLinerFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,25 +7,90 @@
 //
 
 #import "MDRLinerController.h"
+#import "Masonry.h"
+#import "UIView+MDRExtension.h"
+#import "MDRLinerFlowLayout.h"
+#import "MDRCustomLayoutCell.h"
 
-@interface MDRLinerController ()
+@interface MDRLinerController () <UICollectionViewDataSource, UICollectionViewDelegate>
 
 @end
 
 @implementation MDRLinerController
 
+
+NSString * const cellId = @"liner";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.navigationItem.title = @"LinerScale";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
     // MARK: - collectionView
+    MDRLinerFlowLayout *linerLayout = [[MDRLinerFlowLayout alloc] init];
+    
+    
+    
+    UICollectionView *collectionV = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:linerLayout];
+    
+    collectionV.backgroundColor = [UIColor lightGrayColor];
+    
+    collectionV.dataSource = self;
+    collectionV.delegate = self;
+    
+    [collectionV registerClass:[MDRCustomLayoutCell class] forCellWithReuseIdentifier:cellId];
+    
+    [self.view addSubview:collectionV];
+    
+    
+    [collectionV mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.height.mas_equalTo(200);
+        make.width.mas_equalTo(self.view);
+        
+        make.center.mas_equalTo(self.view);
+        
+    }];
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+
+
+
+#pragma mark - dataSource
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+    
+    return 1;
+}
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+
+    return 50;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+
+    MDRCustomLayoutCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
+    
+    cell.name = [NSString stringWithFormat:@"这是第 %zd 个 item", indexPath.item];
+    
+    cell.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0];
+
+    return cell;
     
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @end
