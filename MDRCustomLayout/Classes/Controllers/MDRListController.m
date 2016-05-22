@@ -27,6 +27,7 @@ NSString * const cellID = @"cellID";
     
     tableView.delegate = self;
     tableView.dataSource = self;
+    tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellID];
     
@@ -39,6 +40,8 @@ NSString * const cellID = @"cellID";
 #pragma mark - delegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
     // 获取选中的数据
     NSDictionary *cellItem = self.listArr[indexPath.section][@"items"][indexPath.row];
     
@@ -47,6 +50,8 @@ NSString * const cellID = @"cellID";
     
     Class calssName = NSClassFromString(vcStr);
     UIViewController *obj = [[calssName alloc] init];
+    
+    obj.navigationItem.title = cellItem[@"title"];
     
     if (obj != nil) {
         [self.navigationController pushViewController:obj animated:YES];
@@ -124,9 +129,12 @@ NSString * const cellID = @"cellID";
                                         @{
                                             @"title"    : @"frosted glass",
                                             @"targetVc" : @"MDRGlassController"
+                                            },
+                                        @{
+                                            @"title"    : @"record vedio",
+                                            @"targetVc" : @"MDRRecordVedioController"
+                                            
                                             }
-                                        
-                                 
                                         ]
                          
                          }
