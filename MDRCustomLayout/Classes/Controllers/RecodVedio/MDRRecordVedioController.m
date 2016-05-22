@@ -15,6 +15,7 @@
 #import <Photos/Photos.h>
 
 #import "Masonry.h"
+#import "MDRSessionController.h"
 
 @interface MDRRecordVedioController () <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
@@ -184,10 +185,10 @@
 #pragma mark - 通过AVFoudation提供的API录制视频
 - (void)throughAvfoundationRecordVedio {
     
+    MDRSessionController *sessionVc = [[MDRSessionController alloc] init];
     
     
-    
-    
+    [self presentViewController:sessionVc animated:YES completion:nil];
 }
 
 #pragma mark - 通过AVCaptureOutput录制视频
