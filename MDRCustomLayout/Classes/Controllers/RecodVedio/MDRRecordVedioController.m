@@ -124,6 +124,7 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+// MARK: - 检查用户许可
 - (void)checkPhotoAccess {
     [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
         
@@ -157,7 +158,7 @@
 
     
 }
-
+// MARK: - 存储视频
 - (void)saveVedioToPhotosAlbum:(NSURL *)videoUrl {
    
     // 获取相册资源库

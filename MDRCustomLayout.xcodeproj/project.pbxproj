@@ -33,8 +33,9 @@
 		D93DFD171CD493F400A62377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD161CD493F400A62377 /* main.m */; };
 		D93DFD221CD493F400A62377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD211CD493F400A62377 /* Assets.xcassets */; };
 		D93DFD251CD493F400A62377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD231CD493F400A62377 /* LaunchScreen.storyboard */; };
-		D9AE9DBE1CF16F0F00EF7240 /* MDRRecordVedioController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE9DBD1CF16F0F00EF7240 /* MDRRecordVedioController.m */; };
 		D9AE9DC01CF1986E00EF7240 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AE9DBF1CF1986E00EF7240 /* MobileCoreServices.framework */; };
+		D9AE9DC41CF1AB5000EF7240 /* MDRRecordVedioController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE9DC31CF1AB5000EF7240 /* MDRRecordVedioController.m */; };
+		D9AE9DC71CF1AE1800EF7240 /* MDRSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE9DC61CF1AE1800EF7240 /* MDRSessionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,9 +93,11 @@
 		D93DFD211CD493F400A62377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D93DFD241CD493F400A62377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D93DFD261CD493F400A62377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9AE9DBC1CF16F0F00EF7240 /* MDRRecordVedioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRRecordVedioController.h; sourceTree = "<group>"; };
-		D9AE9DBD1CF16F0F00EF7240 /* MDRRecordVedioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRRecordVedioController.m; sourceTree = "<group>"; };
 		D9AE9DBF1CF1986E00EF7240 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D9AE9DC21CF1AB5000EF7240 /* MDRRecordVedioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRRecordVedioController.h; sourceTree = "<group>"; };
+		D9AE9DC31CF1AB5000EF7240 /* MDRRecordVedioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRRecordVedioController.m; sourceTree = "<group>"; };
+		D9AE9DC51CF1AE1800EF7240 /* MDRSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRSessionController.h; sourceTree = "<group>"; };
+		D9AE9DC61CF1AE1800EF7240 /* MDRSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRSessionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,7 @@
 		D90673871CEEFDE6004BE139 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D9AE9DC11CF1AB5000EF7240 /* RecodVedio */,
 				D90673A01CEEFE39004BE139 /* MDRListController.h */,
 				D90673A11CEEFE39004BE139 /* MDRListController.m */,
 				D90673881CEEFDE6004BE139 /* MDRViewController.h */,
@@ -134,8 +138,6 @@
 				D90673A41CEF03FE004BE139 /* MDRLinerController.m */,
 				D90673D81CEF0C79004BE139 /* MDRGlassController.h */,
 				D90673D91CEF0C79004BE139 /* MDRGlassController.m */,
-				D9AE9DBC1CF16F0F00EF7240 /* MDRRecordVedioController.h */,
-				D9AE9DBD1CF16F0F00EF7240 /* MDRRecordVedioController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -292,6 +294,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D9AE9DC11CF1AB5000EF7240 /* RecodVedio */ = {
+			isa = PBXGroup;
+			children = (
+				D9AE9DC21CF1AB5000EF7240 /* MDRRecordVedioController.h */,
+				D9AE9DC31CF1AB5000EF7240 /* MDRRecordVedioController.m */,
+				D9AE9DC51CF1AE1800EF7240 /* MDRSessionController.h */,
+				D9AE9DC61CF1AE1800EF7240 /* MDRSessionController.m */,
+			);
+			path = RecodVedio;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -368,6 +381,7 @@
 				D90673D21CEF0551004BE139 /* UIView+MDRExtension.m in Sources */,
 				D90673CA1CEF0529004BE139 /* MASViewConstraint.m in Sources */,
 				D90673991CEEFDE6004BE139 /* MDRViewController.m in Sources */,
+				D9AE9DC71CF1AE1800EF7240 /* MDRSessionController.m in Sources */,
 				D90673C91CEF0529004BE139 /* MASViewAttribute.m in Sources */,
 				D90673A21CEEFE39004BE139 /* MDRListController.m in Sources */,
 				D90673A51CEF03FE004BE139 /* MDRLinerController.m in Sources */,
@@ -380,7 +394,7 @@
 				D90673C61CEF0529004BE139 /* MASConstraint.m in Sources */,
 				D906739B1CEEFDE6004BE139 /* MDRCustomThree.m in Sources */,
 				D906739D1CEEFDE6004BE139 /* AppDelegate.m in Sources */,
-				D9AE9DBE1CF16F0F00EF7240 /* MDRRecordVedioController.m in Sources */,
+				D9AE9DC41CF1AB5000EF7240 /* MDRRecordVedioController.m in Sources */,
 				D90673CB1CEF0529004BE139 /* NSArray+MASAdditions.m in Sources */,
 				D90673CC1CEF0529004BE139 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				D906739A1CEEFDE6004BE139 /* MDRCustomOne.m in Sources */,
