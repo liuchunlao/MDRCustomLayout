@@ -124,23 +124,33 @@ NSString * const cellID = @"cellID";
                          
                      // 第2组
                      @{
-                         @"header"  : @"other",
+                         @"header"  : @"record",
                          @"items"   : @[
-                                        @{
-                                            @"title"    : @"frosted glass",
-                                            @"targetVc" : @"MDRGlassController"
-                                            },
                                         @{
                                             @"title"    : @"record vedio",
                                             @"targetVc" : @"MDRRecordVedioController"
                                             
+                                            },
+                                        @{
+                                            @"title"    : @"record screen",
+                                            @"targetVc" : @"MDRRecordScreenController"
                                             }
                                         ]
                          
+                         },
+                     // 第3组
+                     @{
+                         @"header"  : @"other",
+                         @"items"   : @[
+                                         @{
+                                             @"title"    : @"frosted glass",
+                                             @"targetVc" : @"MDRGlassController"
+                                             },
+                                         ]
                          }
-                     
                      ];
     }
+                     
     return _listArr;
 }
 

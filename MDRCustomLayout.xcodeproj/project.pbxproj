@@ -7,97 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D90673991CEEFDE6004BE139 /* MDRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673891CEEFDE6004BE139 /* MDRViewController.m */; };
-		D906739A1CEEFDE6004BE139 /* MDRCustomOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D906738C1CEEFDE6004BE139 /* MDRCustomOne.m */; };
-		D906739B1CEEFDE6004BE139 /* MDRCustomThree.m in Sources */ = {isa = PBXBuildFile; fileRef = D906738E1CEEFDE6004BE139 /* MDRCustomThree.m */; };
-		D906739C1CEEFDE6004BE139 /* MDRCustomTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673901CEEFDE6004BE139 /* MDRCustomTwo.m */; };
-		D906739D1CEEFDE6004BE139 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673941CEEFDE6004BE139 /* AppDelegate.m */; };
-		D906739E1CEEFDE6004BE139 /* MDRCustomLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673971CEEFDE6004BE139 /* MDRCustomLayoutCell.m */; };
-		D906739F1CEEFDE6004BE139 /* MDRCustomLayoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90673981CEEFDE6004BE139 /* MDRCustomLayoutCell.xib */; };
-		D90673A21CEEFE39004BE139 /* MDRListController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673A11CEEFE39004BE139 /* MDRListController.m */; };
-		D90673A51CEF03FE004BE139 /* MDRLinerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673A41CEF03FE004BE139 /* MDRLinerController.m */; };
-		D90673C41CEF0529004BE139 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D90673AA1CEF0529004BE139 /* Info.plist */; };
-		D90673C51CEF0529004BE139 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673AC1CEF0529004BE139 /* MASCompositeConstraint.m */; };
-		D90673C61CEF0529004BE139 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673AF1CEF0529004BE139 /* MASConstraint.m */; };
-		D90673C71CEF0529004BE139 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673B11CEF0529004BE139 /* MASConstraintMaker.m */; };
-		D90673C81CEF0529004BE139 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673B31CEF0529004BE139 /* MASLayoutConstraint.m */; };
-		D90673C91CEF0529004BE139 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673B71CEF0529004BE139 /* MASViewAttribute.m */; };
-		D90673CA1CEF0529004BE139 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673B91CEF0529004BE139 /* MASViewConstraint.m */; };
-		D90673CB1CEF0529004BE139 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673BB1CEF0529004BE139 /* NSArray+MASAdditions.m */; };
-		D90673CC1CEF0529004BE139 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673BE1CEF0529004BE139 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		D90673CD1CEF0529004BE139 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673C01CEF0529004BE139 /* View+MASAdditions.m */; };
-		D90673CE1CEF0529004BE139 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673C31CEF0529004BE139 /* ViewController+MASAdditions.m */; };
-		D90673D21CEF0551004BE139 /* UIView+MDRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673D11CEF0551004BE139 /* UIView+MDRExtension.m */; };
-		D90673D71CEF063C004BE139 /* MDRLinerFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673D61CEF063C004BE139 /* MDRLinerFlowLayout.m */; };
-		D90673DA1CEF0C79004BE139 /* MDRGlassController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90673D91CEF0C79004BE139 /* MDRGlassController.m */; };
 		D93DFD171CD493F400A62377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD161CD493F400A62377 /* main.m */; };
 		D93DFD221CD493F400A62377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD211CD493F400A62377 /* Assets.xcassets */; };
 		D93DFD251CD493F400A62377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD231CD493F400A62377 /* LaunchScreen.storyboard */; };
+		D95890C71D033EB600C08641 /* MDRLinerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95890791D033EB600C08641 /* MDRLinerController.m */; };
+		D95890C81D033EB600C08641 /* MDRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D958907B1D033EB600C08641 /* MDRViewController.m */; };
+		D95890C91D033EB600C08641 /* MDRCustomOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D958907E1D033EB600C08641 /* MDRCustomOne.m */; };
+		D95890CA1D033EB600C08641 /* MDRCustomThree.m in Sources */ = {isa = PBXBuildFile; fileRef = D95890801D033EB600C08641 /* MDRCustomThree.m */; };
+		D95890CB1D033EB600C08641 /* MDRCustomTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = D95890821D033EB600C08641 /* MDRCustomTwo.m */; };
+		D95890CC1D033EB600C08641 /* MDRLinerFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D95890851D033EB600C08641 /* MDRLinerFlowLayout.m */; };
+		D95890CD1D033EB600C08641 /* MDRCustomLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D958908A1D033EB600C08641 /* MDRCustomLayoutCell.m */; };
+		D95890CE1D033EB600C08641 /* MDRCustomLayoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D958908B1D033EB600C08641 /* MDRCustomLayoutCell.xib */; };
+		D95890CF1D033EB600C08641 /* MDRListController.m in Sources */ = {isa = PBXBuildFile; fileRef = D958908F1D033EB600C08641 /* MDRListController.m */; };
+		D95890D01D033EB600C08641 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D95890931D033EB600C08641 /* AppDelegate.m */; };
+		D95890D11D033EB600C08641 /* MDRGlassController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95890981D033EB600C08641 /* MDRGlassController.m */; };
+		D95890D21D033EB600C08641 /* MDRRecordVedioController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95890A01D033EB600C08641 /* MDRRecordVedioController.m */; };
+		D95890D31D033EB600C08641 /* MDRSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95890A21D033EB600C08641 /* MDRSessionController.m */; };
+		D95890E11D033F3800C08641 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D95890E01D033F3800C08641 /* Info.plist */; };
+		D95890E61D03404600C08641 /* UIView+MDRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D95890E51D03404600C08641 /* UIView+MDRExtension.m */; };
+		D95891261D0341AC00C08641 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D958910C1D0341AC00C08641 /* Info.plist */; };
+		D95891271D0341AC00C08641 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D958910E1D0341AC00C08641 /* MASCompositeConstraint.m */; };
+		D95891281D0341AC00C08641 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891111D0341AC00C08641 /* MASConstraint.m */; };
+		D95891291D0341AC00C08641 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891131D0341AC00C08641 /* MASConstraintMaker.m */; };
+		D958912A1D0341AC00C08641 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891151D0341AC00C08641 /* MASLayoutConstraint.m */; };
+		D958912B1D0341AC00C08641 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891191D0341AC00C08641 /* MASViewAttribute.m */; };
+		D958912C1D0341AC00C08641 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D958911B1D0341AC00C08641 /* MASViewConstraint.m */; };
+		D958912D1D0341AC00C08641 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D958911D1D0341AC00C08641 /* NSArray+MASAdditions.m */; };
+		D958912E1D0341AC00C08641 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891201D0341AC00C08641 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D958912F1D0341AC00C08641 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891221D0341AC00C08641 /* View+MASAdditions.m */; };
+		D95891301D0341AC00C08641 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891251D0341AC00C08641 /* ViewController+MASAdditions.m */; };
 		D9AE9DC01CF1986E00EF7240 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AE9DBF1CF1986E00EF7240 /* MobileCoreServices.framework */; };
-		D9AE9DC41CF1AB5000EF7240 /* MDRRecordVedioController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE9DC31CF1AB5000EF7240 /* MDRRecordVedioController.m */; };
-		D9AE9DC71CF1AE1800EF7240 /* MDRSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE9DC61CF1AE1800EF7240 /* MDRSessionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D90673881CEEFDE6004BE139 /* MDRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRViewController.h; sourceTree = "<group>"; };
-		D90673891CEEFDE6004BE139 /* MDRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRViewController.m; sourceTree = "<group>"; };
-		D906738B1CEEFDE6004BE139 /* MDRCustomOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomOne.h; sourceTree = "<group>"; };
-		D906738C1CEEFDE6004BE139 /* MDRCustomOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomOne.m; sourceTree = "<group>"; };
-		D906738D1CEEFDE6004BE139 /* MDRCustomThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomThree.h; sourceTree = "<group>"; };
-		D906738E1CEEFDE6004BE139 /* MDRCustomThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomThree.m; sourceTree = "<group>"; };
-		D906738F1CEEFDE6004BE139 /* MDRCustomTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomTwo.h; sourceTree = "<group>"; };
-		D90673901CEEFDE6004BE139 /* MDRCustomTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomTwo.m; sourceTree = "<group>"; };
-		D90673931CEEFDE6004BE139 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D90673941CEEFDE6004BE139 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D90673961CEEFDE6004BE139 /* MDRCustomLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomLayoutCell.h; sourceTree = "<group>"; };
-		D90673971CEEFDE6004BE139 /* MDRCustomLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomLayoutCell.m; sourceTree = "<group>"; };
-		D90673981CEEFDE6004BE139 /* MDRCustomLayoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDRCustomLayoutCell.xib; sourceTree = "<group>"; };
-		D90673A01CEEFE39004BE139 /* MDRListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRListController.h; sourceTree = "<group>"; };
-		D90673A11CEEFE39004BE139 /* MDRListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRListController.m; sourceTree = "<group>"; };
-		D90673A31CEF03FE004BE139 /* MDRLinerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRLinerController.h; sourceTree = "<group>"; };
-		D90673A41CEF03FE004BE139 /* MDRLinerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRLinerController.m; sourceTree = "<group>"; };
-		D90673AA1CEF0529004BE139 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D90673AB1CEF0529004BE139 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		D90673AC1CEF0529004BE139 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		D90673AD1CEF0529004BE139 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		D90673AE1CEF0529004BE139 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		D90673AF1CEF0529004BE139 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		D90673B01CEF0529004BE139 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		D90673B11CEF0529004BE139 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		D90673B21CEF0529004BE139 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		D90673B31CEF0529004BE139 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		D90673B41CEF0529004BE139 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		D90673B51CEF0529004BE139 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		D90673B61CEF0529004BE139 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		D90673B71CEF0529004BE139 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		D90673B81CEF0529004BE139 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		D90673B91CEF0529004BE139 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		D90673BA1CEF0529004BE139 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		D90673BB1CEF0529004BE139 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		D90673BC1CEF0529004BE139 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		D90673BD1CEF0529004BE139 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		D90673BE1CEF0529004BE139 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		D90673BF1CEF0529004BE139 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		D90673C01CEF0529004BE139 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		D90673C11CEF0529004BE139 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		D90673C21CEF0529004BE139 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		D90673C31CEF0529004BE139 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		D90673D01CEF0551004BE139 /* UIView+MDRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDRExtension.h"; sourceTree = "<group>"; };
-		D90673D11CEF0551004BE139 /* UIView+MDRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDRExtension.m"; sourceTree = "<group>"; };
-		D90673D51CEF063C004BE139 /* MDRLinerFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRLinerFlowLayout.h; sourceTree = "<group>"; };
-		D90673D61CEF063C004BE139 /* MDRLinerFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRLinerFlowLayout.m; sourceTree = "<group>"; };
-		D90673D81CEF0C79004BE139 /* MDRGlassController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRGlassController.h; sourceTree = "<group>"; };
-		D90673D91CEF0C79004BE139 /* MDRGlassController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRGlassController.m; sourceTree = "<group>"; };
 		D93DFD121CD493F400A62377 /* MDRCustomLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDRCustomLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93DFD161CD493F400A62377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D93DFD211CD493F400A62377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D93DFD241CD493F400A62377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D93DFD261CD493F400A62377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95890781D033EB600C08641 /* MDRLinerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRLinerController.h; sourceTree = "<group>"; };
+		D95890791D033EB600C08641 /* MDRLinerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRLinerController.m; sourceTree = "<group>"; };
+		D958907A1D033EB600C08641 /* MDRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRViewController.h; sourceTree = "<group>"; };
+		D958907B1D033EB600C08641 /* MDRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRViewController.m; sourceTree = "<group>"; };
+		D958907D1D033EB600C08641 /* MDRCustomOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomOne.h; sourceTree = "<group>"; };
+		D958907E1D033EB600C08641 /* MDRCustomOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomOne.m; sourceTree = "<group>"; };
+		D958907F1D033EB600C08641 /* MDRCustomThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomThree.h; sourceTree = "<group>"; };
+		D95890801D033EB600C08641 /* MDRCustomThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomThree.m; sourceTree = "<group>"; };
+		D95890811D033EB600C08641 /* MDRCustomTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomTwo.h; sourceTree = "<group>"; };
+		D95890821D033EB600C08641 /* MDRCustomTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomTwo.m; sourceTree = "<group>"; };
+		D95890841D033EB600C08641 /* MDRLinerFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRLinerFlowLayout.h; sourceTree = "<group>"; };
+		D95890851D033EB600C08641 /* MDRLinerFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRLinerFlowLayout.m; sourceTree = "<group>"; };
+		D95890891D033EB600C08641 /* MDRCustomLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRCustomLayoutCell.h; sourceTree = "<group>"; };
+		D958908A1D033EB600C08641 /* MDRCustomLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRCustomLayoutCell.m; sourceTree = "<group>"; };
+		D958908B1D033EB600C08641 /* MDRCustomLayoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDRCustomLayoutCell.xib; sourceTree = "<group>"; };
+		D958908E1D033EB600C08641 /* MDRListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRListController.h; sourceTree = "<group>"; };
+		D958908F1D033EB600C08641 /* MDRListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRListController.m; sourceTree = "<group>"; };
+		D95890921D033EB600C08641 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D95890931D033EB600C08641 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D95890971D033EB600C08641 /* MDRGlassController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRGlassController.h; sourceTree = "<group>"; };
+		D95890981D033EB600C08641 /* MDRGlassController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRGlassController.m; sourceTree = "<group>"; };
+		D958909F1D033EB600C08641 /* MDRRecordVedioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRRecordVedioController.h; sourceTree = "<group>"; };
+		D95890A01D033EB600C08641 /* MDRRecordVedioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRRecordVedioController.m; sourceTree = "<group>"; };
+		D95890A11D033EB600C08641 /* MDRSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRSessionController.h; sourceTree = "<group>"; };
+		D95890A21D033EB600C08641 /* MDRSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRSessionController.m; sourceTree = "<group>"; };
+		D95890E01D033F3800C08641 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95890E41D03404600C08641 /* UIView+MDRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDRExtension.h"; sourceTree = "<group>"; };
+		D95890E51D03404600C08641 /* UIView+MDRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDRExtension.m"; sourceTree = "<group>"; };
+		D958910C1D0341AC00C08641 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D958910D1D0341AC00C08641 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		D958910E1D0341AC00C08641 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D958910F1D0341AC00C08641 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D95891101D0341AC00C08641 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		D95891111D0341AC00C08641 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		D95891121D0341AC00C08641 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		D95891131D0341AC00C08641 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		D95891141D0341AC00C08641 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		D95891151D0341AC00C08641 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		D95891161D0341AC00C08641 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		D95891171D0341AC00C08641 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		D95891181D0341AC00C08641 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		D95891191D0341AC00C08641 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		D958911A1D0341AC00C08641 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		D958911B1D0341AC00C08641 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		D958911C1D0341AC00C08641 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		D958911D1D0341AC00C08641 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D958911E1D0341AC00C08641 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D958911F1D0341AC00C08641 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D95891201D0341AC00C08641 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		D95891211D0341AC00C08641 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		D95891221D0341AC00C08641 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		D95891231D0341AC00C08641 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D95891241D0341AC00C08641 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D95891251D0341AC00C08641 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		D9AE9DBF1CF1986E00EF7240 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		D9AE9DC21CF1AB5000EF7240 /* MDRRecordVedioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRRecordVedioController.h; sourceTree = "<group>"; };
-		D9AE9DC31CF1AB5000EF7240 /* MDRRecordVedioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRRecordVedioController.m; sourceTree = "<group>"; };
-		D9AE9DC51CF1AE1800EF7240 /* MDRSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRSessionController.h; sourceTree = "<group>"; };
-		D9AE9DC61CF1AE1800EF7240 /* MDRSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRSessionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,151 +113,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D90673861CEEFDE6004BE139 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D90673921CEEFDE6004BE139 /* Others */,
-				D90673871CEEFDE6004BE139 /* Controllers */,
-				D906738A1CEEFDE6004BE139 /* CustomLayout */,
-				D90673D41CEF061A004BE139 /* Liner */,
-				D90673911CEEFDE6004BE139 /* Models */,
-				D90673951CEEFDE6004BE139 /* Views */,
-				D90673A61CEF0515004BE139 /* Tool */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		D90673871CEEFDE6004BE139 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				D9AE9DC11CF1AB5000EF7240 /* RecodVedio */,
-				D90673A01CEEFE39004BE139 /* MDRListController.h */,
-				D90673A11CEEFE39004BE139 /* MDRListController.m */,
-				D90673881CEEFDE6004BE139 /* MDRViewController.h */,
-				D90673891CEEFDE6004BE139 /* MDRViewController.m */,
-				D90673A31CEF03FE004BE139 /* MDRLinerController.h */,
-				D90673A41CEF03FE004BE139 /* MDRLinerController.m */,
-				D90673D81CEF0C79004BE139 /* MDRGlassController.h */,
-				D90673D91CEF0C79004BE139 /* MDRGlassController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		D906738A1CEEFDE6004BE139 /* CustomLayout */ = {
-			isa = PBXGroup;
-			children = (
-				D906738B1CEEFDE6004BE139 /* MDRCustomOne.h */,
-				D906738C1CEEFDE6004BE139 /* MDRCustomOne.m */,
-				D906738D1CEEFDE6004BE139 /* MDRCustomThree.h */,
-				D906738E1CEEFDE6004BE139 /* MDRCustomThree.m */,
-				D906738F1CEEFDE6004BE139 /* MDRCustomTwo.h */,
-				D90673901CEEFDE6004BE139 /* MDRCustomTwo.m */,
-			);
-			path = CustomLayout;
-			sourceTree = "<group>";
-		};
-		D90673911CEEFDE6004BE139 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		D90673921CEEFDE6004BE139 /* Others */ = {
-			isa = PBXGroup;
-			children = (
-				D90673931CEEFDE6004BE139 /* AppDelegate.h */,
-				D90673941CEEFDE6004BE139 /* AppDelegate.m */,
-			);
-			path = Others;
-			sourceTree = "<group>";
-		};
-		D90673951CEEFDE6004BE139 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				D90673961CEEFDE6004BE139 /* MDRCustomLayoutCell.h */,
-				D90673971CEEFDE6004BE139 /* MDRCustomLayoutCell.m */,
-				D90673981CEEFDE6004BE139 /* MDRCustomLayoutCell.xib */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		D90673A61CEF0515004BE139 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				D90673A71CEF0515004BE139 /* Category */,
-				D90673A81CEF0515004BE139 /* Libs */,
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
-		D90673A71CEF0515004BE139 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				D90673CF1CEF0551004BE139 /* Category */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		D90673A81CEF0515004BE139 /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				D90673A91CEF0529004BE139 /* Masonry */,
-			);
-			path = Libs;
-			sourceTree = "<group>";
-		};
-		D90673A91CEF0529004BE139 /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				D90673AA1CEF0529004BE139 /* Info.plist */,
-				D90673AB1CEF0529004BE139 /* MASCompositeConstraint.h */,
-				D90673AC1CEF0529004BE139 /* MASCompositeConstraint.m */,
-				D90673AD1CEF0529004BE139 /* MASConstraint+Private.h */,
-				D90673AE1CEF0529004BE139 /* MASConstraint.h */,
-				D90673AF1CEF0529004BE139 /* MASConstraint.m */,
-				D90673B01CEF0529004BE139 /* MASConstraintMaker.h */,
-				D90673B11CEF0529004BE139 /* MASConstraintMaker.m */,
-				D90673B21CEF0529004BE139 /* MASLayoutConstraint.h */,
-				D90673B31CEF0529004BE139 /* MASLayoutConstraint.m */,
-				D90673B41CEF0529004BE139 /* Masonry.h */,
-				D90673B51CEF0529004BE139 /* MASUtilities.h */,
-				D90673B61CEF0529004BE139 /* MASViewAttribute.h */,
-				D90673B71CEF0529004BE139 /* MASViewAttribute.m */,
-				D90673B81CEF0529004BE139 /* MASViewConstraint.h */,
-				D90673B91CEF0529004BE139 /* MASViewConstraint.m */,
-				D90673BA1CEF0529004BE139 /* NSArray+MASAdditions.h */,
-				D90673BB1CEF0529004BE139 /* NSArray+MASAdditions.m */,
-				D90673BC1CEF0529004BE139 /* NSArray+MASShorthandAdditions.h */,
-				D90673BD1CEF0529004BE139 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				D90673BE1CEF0529004BE139 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				D90673BF1CEF0529004BE139 /* View+MASAdditions.h */,
-				D90673C01CEF0529004BE139 /* View+MASAdditions.m */,
-				D90673C11CEF0529004BE139 /* View+MASShorthandAdditions.h */,
-				D90673C21CEF0529004BE139 /* ViewController+MASAdditions.h */,
-				D90673C31CEF0529004BE139 /* ViewController+MASAdditions.m */,
-			);
-			path = Masonry;
-			sourceTree = "<group>";
-		};
-		D90673CF1CEF0551004BE139 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				D90673D01CEF0551004BE139 /* UIView+MDRExtension.h */,
-				D90673D11CEF0551004BE139 /* UIView+MDRExtension.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		D90673D41CEF061A004BE139 /* Liner */ = {
-			isa = PBXGroup;
-			children = (
-				D90673D51CEF063C004BE139 /* MDRLinerFlowLayout.h */,
-				D90673D61CEF063C004BE139 /* MDRLinerFlowLayout.m */,
-			);
-			path = Liner;
-			sourceTree = "<group>";
-		};
 		D93DFD091CD493F400A62377 = {
 			isa = PBXGroup;
 			children = (
@@ -277,7 +133,7 @@
 		D93DFD141CD493F400A62377 /* MDRCustomLayout */ = {
 			isa = PBXGroup;
 			children = (
-				D90673861CEEFDE6004BE139 /* Classes */,
+				D95890741D033EB600C08641 /* Classes */,
 				D93DFD151CD493F400A62377 /* Supporting Files */,
 			);
 			path = MDRCustomLayout;
@@ -286,23 +142,296 @@
 		D93DFD151CD493F400A62377 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D95890E01D033F3800C08641 /* Info.plist */,
 				D93DFD211CD493F400A62377 /* Assets.xcassets */,
 				D93DFD231CD493F400A62377 /* LaunchScreen.storyboard */,
-				D93DFD261CD493F400A62377 /* Info.plist */,
 				D93DFD161CD493F400A62377 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D9AE9DC11CF1AB5000EF7240 /* RecodVedio */ = {
+		D95890741D033EB600C08641 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D9AE9DC21CF1AB5000EF7240 /* MDRRecordVedioController.h */,
-				D9AE9DC31CF1AB5000EF7240 /* MDRRecordVedioController.m */,
-				D9AE9DC51CF1AE1800EF7240 /* MDRSessionController.h */,
-				D9AE9DC61CF1AE1800EF7240 /* MDRSessionController.m */,
+				D95890751D033EB600C08641 /* Controllers */,
+				D95890761D033EB600C08641 /* Layout */,
+				D958908C1D033EB600C08641 /* Main */,
+				D95890951D033EB600C08641 /* other-fantasy */,
+				D958909C1D033EB600C08641 /* Record */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D95890751D033EB600C08641 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D95890761D033EB600C08641 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				D95890771D033EB600C08641 /* Controllers */,
+				D958907C1D033EB600C08641 /* CustomLayout */,
+				D95890831D033EB600C08641 /* Liner */,
+				D95890861D033EB600C08641 /* Models */,
+				D95890871D033EB600C08641 /* Others */,
+				D95890881D033EB600C08641 /* Views */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		D95890771D033EB600C08641 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D95890781D033EB600C08641 /* MDRLinerController.h */,
+				D95890791D033EB600C08641 /* MDRLinerController.m */,
+				D958907A1D033EB600C08641 /* MDRViewController.h */,
+				D958907B1D033EB600C08641 /* MDRViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D958907C1D033EB600C08641 /* CustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D958907D1D033EB600C08641 /* MDRCustomOne.h */,
+				D958907E1D033EB600C08641 /* MDRCustomOne.m */,
+				D958907F1D033EB600C08641 /* MDRCustomThree.h */,
+				D95890801D033EB600C08641 /* MDRCustomThree.m */,
+				D95890811D033EB600C08641 /* MDRCustomTwo.h */,
+				D95890821D033EB600C08641 /* MDRCustomTwo.m */,
+			);
+			path = CustomLayout;
+			sourceTree = "<group>";
+		};
+		D95890831D033EB600C08641 /* Liner */ = {
+			isa = PBXGroup;
+			children = (
+				D95890841D033EB600C08641 /* MDRLinerFlowLayout.h */,
+				D95890851D033EB600C08641 /* MDRLinerFlowLayout.m */,
+			);
+			path = Liner;
+			sourceTree = "<group>";
+		};
+		D95890861D033EB600C08641 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D95890871D033EB600C08641 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D95890881D033EB600C08641 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D95890891D033EB600C08641 /* MDRCustomLayoutCell.h */,
+				D958908A1D033EB600C08641 /* MDRCustomLayoutCell.m */,
+				D958908B1D033EB600C08641 /* MDRCustomLayoutCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D958908C1D033EB600C08641 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D95890E71D03406700C08641 /* Libs */,
+				D95890E21D03404600C08641 /* Category */,
+				D958908D1D033EB600C08641 /* Controllers */,
+				D95890901D033EB600C08641 /* Models */,
+				D95890911D033EB600C08641 /* Others */,
+				D95890941D033EB600C08641 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D958908D1D033EB600C08641 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D958908E1D033EB600C08641 /* MDRListController.h */,
+				D958908F1D033EB600C08641 /* MDRListController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D95890901D033EB600C08641 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D95890911D033EB600C08641 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D95890921D033EB600C08641 /* AppDelegate.h */,
+				D95890931D033EB600C08641 /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D95890941D033EB600C08641 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D95890951D033EB600C08641 /* other-fantasy */ = {
+			isa = PBXGroup;
+			children = (
+				D95890961D033EB600C08641 /* Controllers */,
+				D95890991D033EB600C08641 /* Models */,
+				D958909A1D033EB600C08641 /* Others */,
+				D958909B1D033EB600C08641 /* Views */,
+			);
+			path = "other-fantasy";
+			sourceTree = "<group>";
+		};
+		D95890961D033EB600C08641 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D95890971D033EB600C08641 /* MDRGlassController.h */,
+				D95890981D033EB600C08641 /* MDRGlassController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D95890991D033EB600C08641 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D958909A1D033EB600C08641 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D958909B1D033EB600C08641 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D958909C1D033EB600C08641 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				D958909D1D033EB600C08641 /* Controllers */,
+				D95890A31D033EB600C08641 /* Models */,
+				D95890A41D033EB600C08641 /* Others */,
+				D95890A51D033EB600C08641 /* Views */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		D958909D1D033EB600C08641 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D958909E1D033EB600C08641 /* RecodVedio */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D958909E1D033EB600C08641 /* RecodVedio */ = {
+			isa = PBXGroup;
+			children = (
+				D958909F1D033EB600C08641 /* MDRRecordVedioController.h */,
+				D95890A01D033EB600C08641 /* MDRRecordVedioController.m */,
+				D95890A11D033EB600C08641 /* MDRSessionController.h */,
+				D95890A21D033EB600C08641 /* MDRSessionController.m */,
 			);
 			path = RecodVedio;
+			sourceTree = "<group>";
+		};
+		D95890A31D033EB600C08641 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D95890A41D033EB600C08641 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D95890A51D033EB600C08641 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D95890E21D03404600C08641 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D95890E31D03404600C08641 /* UIView+Ext */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D95890E31D03404600C08641 /* UIView+Ext */ = {
+			isa = PBXGroup;
+			children = (
+				D95890E41D03404600C08641 /* UIView+MDRExtension.h */,
+				D95890E51D03404600C08641 /* UIView+MDRExtension.m */,
+			);
+			path = "UIView+Ext";
+			sourceTree = "<group>";
+		};
+		D95890E71D03406700C08641 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				D958910B1D0341AC00C08641 /* Masonry */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		D958910B1D0341AC00C08641 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				D958910C1D0341AC00C08641 /* Info.plist */,
+				D958910D1D0341AC00C08641 /* MASCompositeConstraint.h */,
+				D958910E1D0341AC00C08641 /* MASCompositeConstraint.m */,
+				D958910F1D0341AC00C08641 /* MASConstraint+Private.h */,
+				D95891101D0341AC00C08641 /* MASConstraint.h */,
+				D95891111D0341AC00C08641 /* MASConstraint.m */,
+				D95891121D0341AC00C08641 /* MASConstraintMaker.h */,
+				D95891131D0341AC00C08641 /* MASConstraintMaker.m */,
+				D95891141D0341AC00C08641 /* MASLayoutConstraint.h */,
+				D95891151D0341AC00C08641 /* MASLayoutConstraint.m */,
+				D95891161D0341AC00C08641 /* Masonry.h */,
+				D95891171D0341AC00C08641 /* MASUtilities.h */,
+				D95891181D0341AC00C08641 /* MASViewAttribute.h */,
+				D95891191D0341AC00C08641 /* MASViewAttribute.m */,
+				D958911A1D0341AC00C08641 /* MASViewConstraint.h */,
+				D958911B1D0341AC00C08641 /* MASViewConstraint.m */,
+				D958911C1D0341AC00C08641 /* NSArray+MASAdditions.h */,
+				D958911D1D0341AC00C08641 /* NSArray+MASAdditions.m */,
+				D958911E1D0341AC00C08641 /* NSArray+MASShorthandAdditions.h */,
+				D958911F1D0341AC00C08641 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				D95891201D0341AC00C08641 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D95891211D0341AC00C08641 /* View+MASAdditions.h */,
+				D95891221D0341AC00C08641 /* View+MASAdditions.m */,
+				D95891231D0341AC00C08641 /* View+MASShorthandAdditions.h */,
+				D95891241D0341AC00C08641 /* ViewController+MASAdditions.h */,
+				D95891251D0341AC00C08641 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,9 +492,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D90673C41CEF0529004BE139 /* Info.plist in Resources */,
-				D906739F1CEEFDE6004BE139 /* MDRCustomLayoutCell.xib in Resources */,
+				D95890CE1D033EB600C08641 /* MDRCustomLayoutCell.xib in Resources */,
 				D93DFD251CD493F400A62377 /* LaunchScreen.storyboard in Resources */,
+				D95890E11D033F3800C08641 /* Info.plist in Resources */,
+				D95891261D0341AC00C08641 /* Info.plist in Resources */,
 				D93DFD221CD493F400A62377 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,30 +507,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D90673DA1CEF0C79004BE139 /* MDRGlassController.m in Sources */,
-				D90673D21CEF0551004BE139 /* UIView+MDRExtension.m in Sources */,
-				D90673CA1CEF0529004BE139 /* MASViewConstraint.m in Sources */,
-				D90673991CEEFDE6004BE139 /* MDRViewController.m in Sources */,
-				D9AE9DC71CF1AE1800EF7240 /* MDRSessionController.m in Sources */,
-				D90673C91CEF0529004BE139 /* MASViewAttribute.m in Sources */,
-				D90673A21CEEFE39004BE139 /* MDRListController.m in Sources */,
-				D90673A51CEF03FE004BE139 /* MDRLinerController.m in Sources */,
-				D906739E1CEEFDE6004BE139 /* MDRCustomLayoutCell.m in Sources */,
-				D90673C51CEF0529004BE139 /* MASCompositeConstraint.m in Sources */,
-				D90673C71CEF0529004BE139 /* MASConstraintMaker.m in Sources */,
-				D90673CD1CEF0529004BE139 /* View+MASAdditions.m in Sources */,
-				D90673C81CEF0529004BE139 /* MASLayoutConstraint.m in Sources */,
-				D90673CE1CEF0529004BE139 /* ViewController+MASAdditions.m in Sources */,
-				D90673C61CEF0529004BE139 /* MASConstraint.m in Sources */,
-				D906739B1CEEFDE6004BE139 /* MDRCustomThree.m in Sources */,
-				D906739D1CEEFDE6004BE139 /* AppDelegate.m in Sources */,
-				D9AE9DC41CF1AB5000EF7240 /* MDRRecordVedioController.m in Sources */,
-				D90673CB1CEF0529004BE139 /* NSArray+MASAdditions.m in Sources */,
-				D90673CC1CEF0529004BE139 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				D906739A1CEEFDE6004BE139 /* MDRCustomOne.m in Sources */,
-				D906739C1CEEFDE6004BE139 /* MDRCustomTwo.m in Sources */,
+				D95891281D0341AC00C08641 /* MASConstraint.m in Sources */,
+				D95890CF1D033EB600C08641 /* MDRListController.m in Sources */,
+				D95891301D0341AC00C08641 /* ViewController+MASAdditions.m in Sources */,
+				D95890D21D033EB600C08641 /* MDRRecordVedioController.m in Sources */,
+				D95890CA1D033EB600C08641 /* MDRCustomThree.m in Sources */,
+				D95890CC1D033EB600C08641 /* MDRLinerFlowLayout.m in Sources */,
+				D95891271D0341AC00C08641 /* MASCompositeConstraint.m in Sources */,
+				D95890E61D03404600C08641 /* UIView+MDRExtension.m in Sources */,
+				D95891291D0341AC00C08641 /* MASConstraintMaker.m in Sources */,
+				D958912F1D0341AC00C08641 /* View+MASAdditions.m in Sources */,
+				D95890C71D033EB600C08641 /* MDRLinerController.m in Sources */,
+				D958912B1D0341AC00C08641 /* MASViewAttribute.m in Sources */,
+				D95890D11D033EB600C08641 /* MDRGlassController.m in Sources */,
+				D958912E1D0341AC00C08641 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				D95890CB1D033EB600C08641 /* MDRCustomTwo.m in Sources */,
+				D95890C81D033EB600C08641 /* MDRViewController.m in Sources */,
+				D95890D01D033EB600C08641 /* AppDelegate.m in Sources */,
+				D958912D1D0341AC00C08641 /* NSArray+MASAdditions.m in Sources */,
+				D95890CD1D033EB600C08641 /* MDRCustomLayoutCell.m in Sources */,
+				D958912C1D0341AC00C08641 /* MASViewConstraint.m in Sources */,
+				D95890C91D033EB600C08641 /* MDRCustomOne.m in Sources */,
+				D95890D31D033EB600C08641 /* MDRSessionController.m in Sources */,
+				D958912A1D0341AC00C08641 /* MASLayoutConstraint.m in Sources */,
 				D93DFD171CD493F400A62377 /* main.m in Sources */,
-				D90673D71CEF063C004BE139 /* MDRLinerFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
