@@ -36,6 +36,7 @@
 		D958912E1D0341AC00C08641 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891201D0341AC00C08641 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		D958912F1D0341AC00C08641 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891221D0341AC00C08641 /* View+MASAdditions.m */; };
 		D95891301D0341AC00C08641 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891251D0341AC00C08641 /* ViewController+MASAdditions.m */; };
+		D95891341D0342B600C08641 /* MDRRecordScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891331D0342B600C08641 /* MDRRecordScreenController.m */; };
 		D9AE9DC01CF1986E00EF7240 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AE9DBF1CF1986E00EF7240 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +99,9 @@
 		D95891231D0341AC00C08641 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		D95891241D0341AC00C08641 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		D95891251D0341AC00C08641 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		D95891321D0342B600C08641 /* MDRRecordScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRRecordScreenController.h; sourceTree = "<group>"; };
+		D95891331D0342B600C08641 /* MDRRecordScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRRecordScreenController.m; sourceTree = "<group>"; };
+		D95891361D0342DA00C08641 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D9AE9DBF1CF1986E00EF7240 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -146,6 +150,7 @@
 				D93DFD211CD493F400A62377 /* Assets.xcassets */,
 				D93DFD231CD493F400A62377 /* LaunchScreen.storyboard */,
 				D93DFD161CD493F400A62377 /* main.m */,
+				D95891361D0342DA00C08641 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,20 +158,12 @@
 		D95890741D033EB600C08641 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D95890751D033EB600C08641 /* Controllers */,
-				D95890761D033EB600C08641 /* Layout */,
 				D958908C1D033EB600C08641 /* Main */,
+				D95890761D033EB600C08641 /* Layout */,
 				D95890951D033EB600C08641 /* other-fantasy */,
 				D958909C1D033EB600C08641 /* Record */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		D95890751D033EB600C08641 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D95890761D033EB600C08641 /* Layout */ = {
@@ -339,6 +336,7 @@
 		D958909D1D033EB600C08641 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D95891311D0342A400C08641 /* RecordScreen */,
 				D958909E1D033EB600C08641 /* RecodVedio */,
 			);
 			path = Controllers;
@@ -434,6 +432,15 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		D95891311D0342A400C08641 /* RecordScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D95891321D0342B600C08641 /* MDRRecordScreenController.h */,
+				D95891331D0342B600C08641 /* MDRRecordScreenController.m */,
+			);
+			path = RecordScreen;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -508,6 +515,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D95891281D0341AC00C08641 /* MASConstraint.m in Sources */,
+				D95891341D0342B600C08641 /* MDRRecordScreenController.m in Sources */,
 				D95890CF1D033EB600C08641 /* MDRListController.m in Sources */,
 				D95891301D0341AC00C08641 /* ViewController+MASAdditions.m in Sources */,
 				D95890D21D033EB600C08641 /* MDRRecordVedioController.m in Sources */,
@@ -636,6 +644,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = ./MDRCustomLayout/PrefixHeader.pch;
 				INFOPLIST_FILE = MDRCustomLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -651,6 +660,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = ./MDRCustomLayout/PrefixHeader.pch;
 				INFOPLIST_FILE = MDRCustomLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
