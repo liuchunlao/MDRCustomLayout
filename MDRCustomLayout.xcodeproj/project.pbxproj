@@ -10,6 +10,8 @@
 		D93DFD171CD493F400A62377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DFD161CD493F400A62377 /* main.m */; };
 		D93DFD221CD493F400A62377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD211CD493F400A62377 /* Assets.xcassets */; };
 		D93DFD251CD493F400A62377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93DFD231CD493F400A62377 /* LaunchScreen.storyboard */; };
+		D947B0841D0D53C30059728D /* TimelineController.m in Sources */ = {isa = PBXBuildFile; fileRef = D947B0831D0D53C30059728D /* TimelineController.m */; };
+		D947B0871D0D543A0059728D /* MDRTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D947B0861D0D543A0059728D /* MDRTimeCell.m */; };
 		D95890C71D033EB600C08641 /* MDRLinerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95890791D033EB600C08641 /* MDRLinerController.m */; };
 		D95890C81D033EB600C08641 /* MDRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D958907B1D033EB600C08641 /* MDRViewController.m */; };
 		D95890C91D033EB600C08641 /* MDRCustomOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D958907E1D033EB600C08641 /* MDRCustomOne.m */; };
@@ -45,6 +47,10 @@
 		D93DFD161CD493F400A62377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D93DFD211CD493F400A62377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D93DFD241CD493F400A62377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D947B0821D0D53C30059728D /* TimelineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineController.h; sourceTree = "<group>"; };
+		D947B0831D0D53C30059728D /* TimelineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineController.m; sourceTree = "<group>"; };
+		D947B0851D0D543A0059728D /* MDRTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRTimeCell.h; sourceTree = "<group>"; };
+		D947B0861D0D543A0059728D /* MDRTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRTimeCell.m; sourceTree = "<group>"; };
 		D95890781D033EB600C08641 /* MDRLinerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRLinerController.h; sourceTree = "<group>"; };
 		D95890791D033EB600C08641 /* MDRLinerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRLinerController.m; sourceTree = "<group>"; };
 		D958907A1D033EB600C08641 /* MDRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRViewController.h; sourceTree = "<group>"; };
@@ -297,6 +303,8 @@
 			children = (
 				D95890971D033EB600C08641 /* MDRGlassController.h */,
 				D95890981D033EB600C08641 /* MDRGlassController.m */,
+				D947B0821D0D53C30059728D /* TimelineController.h */,
+				D947B0831D0D53C30059728D /* TimelineController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -318,6 +326,8 @@
 		D958909B1D033EB600C08641 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D947B0851D0D543A0059728D /* MDRTimeCell.h */,
+				D947B0861D0D543A0059728D /* MDRTimeCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -521,6 +531,7 @@
 				D95890D21D033EB600C08641 /* MDRRecordVedioController.m in Sources */,
 				D95890CA1D033EB600C08641 /* MDRCustomThree.m in Sources */,
 				D95890CC1D033EB600C08641 /* MDRLinerFlowLayout.m in Sources */,
+				D947B0871D0D543A0059728D /* MDRTimeCell.m in Sources */,
 				D95891271D0341AC00C08641 /* MASCompositeConstraint.m in Sources */,
 				D95890E61D03404600C08641 /* UIView+MDRExtension.m in Sources */,
 				D95891291D0341AC00C08641 /* MASConstraintMaker.m in Sources */,
@@ -538,6 +549,7 @@
 				D95890C91D033EB600C08641 /* MDRCustomOne.m in Sources */,
 				D95890D31D033EB600C08641 /* MDRSessionController.m in Sources */,
 				D958912A1D0341AC00C08641 /* MASLayoutConstraint.m in Sources */,
+				D947B0841D0D53C30059728D /* TimelineController.m in Sources */,
 				D93DFD171CD493F400A62377 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

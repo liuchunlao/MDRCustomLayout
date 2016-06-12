@@ -146,6 +146,10 @@ NSString * const cellID = @"cellID";
                                              @"title"    : @"frosted glass",
                                              @"targetVc" : @"MDRGlassController"
                                              },
+                                        @{
+                                             @"title"    : @"timeLine",
+                                             @"targetVc" : @"TimelineController"
+                                             }
                                          ]
                          }
                      ];
