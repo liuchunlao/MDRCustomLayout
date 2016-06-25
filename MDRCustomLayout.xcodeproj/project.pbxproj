@@ -40,6 +40,11 @@
 		D95891301D0341AC00C08641 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891251D0341AC00C08641 /* ViewController+MASAdditions.m */; };
 		D95891341D0342B600C08641 /* MDRRecordScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891331D0342B600C08641 /* MDRRecordScreenController.m */; };
 		D98400B01D1EE02600BDE614 /* HomeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D98400AF1D1EE02600BDE614 /* HomeList.plist */; };
+		D98400BF1D1EE1DF00BDE614 /* MDRSwipeTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D98400B51D1EE1DF00BDE614 /* MDRSwipeTransitionAnimator.m */; };
+		D98400C01D1EE1DF00BDE614 /* MDRSwipeTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D98400B71D1EE1DF00BDE614 /* MDRSwipeTransitionDelegate.m */; };
+		D98400C11D1EE1DF00BDE614 /* MDRSwipeTransitionInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98400B91D1EE1DF00BDE614 /* MDRSwipeTransitionInteractionController.m */; };
+		D98400C21D1EE1DF00BDE614 /* MDRSwipeOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98400BC1D1EE1DF00BDE614 /* MDRSwipeOneController.m */; };
+		D98400C31D1EE1DF00BDE614 /* MDRSwipeTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98400BE1D1EE1DF00BDE614 /* MDRSwipeTwoController.m */; };
 		D9AE9DC01CF1986E00EF7240 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AE9DBF1CF1986E00EF7240 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +115,16 @@
 		D95891331D0342B600C08641 /* MDRRecordScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRRecordScreenController.m; sourceTree = "<group>"; };
 		D95891361D0342DA00C08641 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D98400AF1D1EE02600BDE614 /* HomeList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeList.plist; sourceTree = "<group>"; };
+		D98400B41D1EE1DF00BDE614 /* MDRSwipeTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRSwipeTransitionAnimator.h; sourceTree = "<group>"; };
+		D98400B51D1EE1DF00BDE614 /* MDRSwipeTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRSwipeTransitionAnimator.m; sourceTree = "<group>"; };
+		D98400B61D1EE1DF00BDE614 /* MDRSwipeTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRSwipeTransitionDelegate.h; sourceTree = "<group>"; };
+		D98400B71D1EE1DF00BDE614 /* MDRSwipeTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRSwipeTransitionDelegate.m; sourceTree = "<group>"; };
+		D98400B81D1EE1DF00BDE614 /* MDRSwipeTransitionInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRSwipeTransitionInteractionController.h; sourceTree = "<group>"; };
+		D98400B91D1EE1DF00BDE614 /* MDRSwipeTransitionInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRSwipeTransitionInteractionController.m; sourceTree = "<group>"; };
+		D98400BB1D1EE1DF00BDE614 /* MDRSwipeOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRSwipeOneController.h; sourceTree = "<group>"; };
+		D98400BC1D1EE1DF00BDE614 /* MDRSwipeOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRSwipeOneController.m; sourceTree = "<group>"; };
+		D98400BD1D1EE1DF00BDE614 /* MDRSwipeTwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRSwipeTwoController.h; sourceTree = "<group>"; };
+		D98400BE1D1EE1DF00BDE614 /* MDRSwipeTwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRSwipeTwoController.m; sourceTree = "<group>"; };
 		D9AE9DBF1CF1986E00EF7240 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -167,6 +182,7 @@
 		D95890741D033EB600C08641 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D98400B11D1EE19100BDE614 /* customTransition */,
 				D958908C1D033EB600C08641 /* Main */,
 				D95890761D033EB600C08641 /* Layout */,
 				D95890951D033EB600C08641 /* other-fantasy */,
@@ -454,6 +470,47 @@
 			path = RecordScreen;
 			sourceTree = "<group>";
 		};
+		D98400B11D1EE19100BDE614 /* customTransition */ = {
+			isa = PBXGroup;
+			children = (
+				D98400B21D1EE1DF00BDE614 /* Swipe */,
+			);
+			path = customTransition;
+			sourceTree = "<group>";
+		};
+		D98400B21D1EE1DF00BDE614 /* Swipe */ = {
+			isa = PBXGroup;
+			children = (
+				D98400B31D1EE1DF00BDE614 /* SwipePresent */,
+				D98400BA1D1EE1DF00BDE614 /* SwipeVcs */,
+			);
+			path = Swipe;
+			sourceTree = "<group>";
+		};
+		D98400B31D1EE1DF00BDE614 /* SwipePresent */ = {
+			isa = PBXGroup;
+			children = (
+				D98400B41D1EE1DF00BDE614 /* MDRSwipeTransitionAnimator.h */,
+				D98400B51D1EE1DF00BDE614 /* MDRSwipeTransitionAnimator.m */,
+				D98400B61D1EE1DF00BDE614 /* MDRSwipeTransitionDelegate.h */,
+				D98400B71D1EE1DF00BDE614 /* MDRSwipeTransitionDelegate.m */,
+				D98400B81D1EE1DF00BDE614 /* MDRSwipeTransitionInteractionController.h */,
+				D98400B91D1EE1DF00BDE614 /* MDRSwipeTransitionInteractionController.m */,
+			);
+			path = SwipePresent;
+			sourceTree = "<group>";
+		};
+		D98400BA1D1EE1DF00BDE614 /* SwipeVcs */ = {
+			isa = PBXGroup;
+			children = (
+				D98400BB1D1EE1DF00BDE614 /* MDRSwipeOneController.h */,
+				D98400BC1D1EE1DF00BDE614 /* MDRSwipeOneController.m */,
+				D98400BD1D1EE1DF00BDE614 /* MDRSwipeTwoController.h */,
+				D98400BE1D1EE1DF00BDE614 /* MDRSwipeTwoController.m */,
+			);
+			path = SwipeVcs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -536,6 +593,7 @@
 				D95890CA1D033EB600C08641 /* MDRCustomThree.m in Sources */,
 				D95890CC1D033EB600C08641 /* MDRLinerFlowLayout.m in Sources */,
 				D947B0871D0D543A0059728D /* MDRTimeCell.m in Sources */,
+				D98400C21D1EE1DF00BDE614 /* MDRSwipeOneController.m in Sources */,
 				D95891271D0341AC00C08641 /* MASCompositeConstraint.m in Sources */,
 				D95890E61D03404600C08641 /* UIView+MDRExtension.m in Sources */,
 				D95891291D0341AC00C08641 /* MASConstraintMaker.m in Sources */,
@@ -544,7 +602,9 @@
 				D958912B1D0341AC00C08641 /* MASViewAttribute.m in Sources */,
 				D95890D11D033EB600C08641 /* MDRGlassController.m in Sources */,
 				D958912E1D0341AC00C08641 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				D98400C11D1EE1DF00BDE614 /* MDRSwipeTransitionInteractionController.m in Sources */,
 				D95890CB1D033EB600C08641 /* MDRCustomTwo.m in Sources */,
+				D98400C01D1EE1DF00BDE614 /* MDRSwipeTransitionDelegate.m in Sources */,
 				D95890C81D033EB600C08641 /* MDRViewController.m in Sources */,
 				D95890D01D033EB600C08641 /* AppDelegate.m in Sources */,
 				D958912D1D0341AC00C08641 /* NSArray+MASAdditions.m in Sources */,
@@ -552,6 +612,8 @@
 				D958912C1D0341AC00C08641 /* MASViewConstraint.m in Sources */,
 				D95890C91D033EB600C08641 /* MDRCustomOne.m in Sources */,
 				D95890D31D033EB600C08641 /* MDRSessionController.m in Sources */,
+				D98400C31D1EE1DF00BDE614 /* MDRSwipeTwoController.m in Sources */,
+				D98400BF1D1EE1DF00BDE614 /* MDRSwipeTransitionAnimator.m in Sources */,
 				D958912A1D0341AC00C08641 /* MASLayoutConstraint.m in Sources */,
 				D947B0841D0D53C30059728D /* TimelineController.m in Sources */,
 				D93DFD171CD493F400A62377 /* main.m in Sources */,
