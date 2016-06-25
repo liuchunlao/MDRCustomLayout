@@ -60,5 +60,18 @@
 			</dict>
 		</array>
 	</dict>
+	<dict>
+		<key>header</key>
+		<string>custom transiton</string>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>custom present</string>
+				<key>targetVc</key>
+				<string>MDRSwipeOneController</string>
+			</dict>
+		</array>
+	</dict>
 </array>
 </plist>
