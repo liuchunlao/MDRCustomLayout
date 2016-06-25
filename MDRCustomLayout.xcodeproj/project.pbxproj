@@ -39,6 +39,7 @@
 		D958912F1D0341AC00C08641 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891221D0341AC00C08641 /* View+MASAdditions.m */; };
 		D95891301D0341AC00C08641 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891251D0341AC00C08641 /* ViewController+MASAdditions.m */; };
 		D95891341D0342B600C08641 /* MDRRecordScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95891331D0342B600C08641 /* MDRRecordScreenController.m */; };
+		D98400B01D1EE02600BDE614 /* HomeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D98400AF1D1EE02600BDE614 /* HomeList.plist */; };
 		D9AE9DC01CF1986E00EF7240 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AE9DBF1CF1986E00EF7240 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +109,7 @@
 		D95891321D0342B600C08641 /* MDRRecordScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRRecordScreenController.h; sourceTree = "<group>"; };
 		D95891331D0342B600C08641 /* MDRRecordScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRRecordScreenController.m; sourceTree = "<group>"; };
 		D95891361D0342DA00C08641 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D98400AF1D1EE02600BDE614 /* HomeList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeList.plist; sourceTree = "<group>"; };
 		D9AE9DBF1CF1986E00EF7240 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -157,6 +159,7 @@
 				D93DFD231CD493F400A62377 /* LaunchScreen.storyboard */,
 				D93DFD161CD493F400A62377 /* main.m */,
 				D95891361D0342DA00C08641 /* PrefixHeader.pch */,
+				D98400AF1D1EE02600BDE614 /* HomeList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -514,6 +517,7 @@
 				D95890E11D033F3800C08641 /* Info.plist in Resources */,
 				D95891261D0341AC00C08641 /* Info.plist in Resources */,
 				D93DFD221CD493F400A62377 /* Assets.xcassets in Resources */,
+				D98400B01D1EE02600BDE614 /* HomeList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

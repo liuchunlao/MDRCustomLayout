@@ -99,60 +99,8 @@ NSString * const cellID = @"cellID";
 - (NSArray *)listArr {
     
     if (_listArr == nil) {
-        _listArr = @[
-                     // 第0组
-                     @{
-                         @"header": @"three",
-                         @"items" : @[
-                                        @{
-                                            @"title"    : @"custom layout",
-                                            @"targetVc" : @"MDRViewController"
-                                            }
-                                        ]
-                         },
-                     
-                     // 第1组
-                     @{
-                         @"header"  : @"liner scale",
-                         @"items"   : @[
-                                        @{
-                                            @"title"    : @"liner",
-                                            @"targetVc" : @"MDRLinerController"
-                                            }
-                                        ]
-                         },
-                         
-                     // 第2组
-                     @{
-                         @"header"  : @"record",
-                         @"items"   : @[
-                                        @{
-                                            @"title"    : @"record vedio",
-                                            @"targetVc" : @"MDRRecordVedioController"
-                                            
-                                            },
-                                        @{
-                                            @"title"    : @"record screen",
-                                            @"targetVc" : @"MDRRecordScreenController"
-                                            }
-                                        ]
-                         
-                         },
-                     // 第3组
-                     @{
-                         @"header"  : @"other",
-                         @"items"   : @[
-                                         @{
-                                             @"title"    : @"frosted glass",
-                                             @"targetVc" : @"MDRGlassController"
-                                             },
-                                        @{
-                                             @"title"    : @"timeLine",
-                                             @"targetVc" : @"TimelineController"
-                                             }
-                                         ]
-                         }
-                     ];
+        
+        _listArr = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"HomeList.plist" ofType:nil]];
     }
                      
     return _listArr;
