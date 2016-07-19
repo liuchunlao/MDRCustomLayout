@@ -45,6 +45,9 @@
 		D98400C11D1EE1DF00BDE614 /* MDRSwipeTransitionInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98400B91D1EE1DF00BDE614 /* MDRSwipeTransitionInteractionController.m */; };
 		D98400C21D1EE1DF00BDE614 /* MDRSwipeOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98400BC1D1EE1DF00BDE614 /* MDRSwipeOneController.m */; };
 		D98400C31D1EE1DF00BDE614 /* MDRSwipeTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98400BE1D1EE1DF00BDE614 /* MDRSwipeTwoController.m */; };
+		D9AB1AF91D3E7921008CAE76 /* CZCustomTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AB1AF61D3E7921008CAE76 /* CZCustomTransitionAnimator.m */; };
+		D9AB1AFA1D3E7921008CAE76 /* CZMusicPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AB1AF81D3E7921008CAE76 /* CZMusicPlayerController.m */; };
+		D9AB1AFD1D3E7982008CAE76 /* MDRRotateController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AB1AFC1D3E7982008CAE76 /* MDRRotateController.m */; };
 		D9AE9DC01CF1986E00EF7240 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AE9DBF1CF1986E00EF7240 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
@@ -125,6 +128,12 @@
 		D98400BC1D1EE1DF00BDE614 /* MDRSwipeOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRSwipeOneController.m; sourceTree = "<group>"; };
 		D98400BD1D1EE1DF00BDE614 /* MDRSwipeTwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRSwipeTwoController.h; sourceTree = "<group>"; };
 		D98400BE1D1EE1DF00BDE614 /* MDRSwipeTwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRSwipeTwoController.m; sourceTree = "<group>"; };
+		D9AB1AF51D3E7921008CAE76 /* CZCustomTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCustomTransitionAnimator.h; sourceTree = "<group>"; };
+		D9AB1AF61D3E7921008CAE76 /* CZCustomTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCustomTransitionAnimator.m; sourceTree = "<group>"; };
+		D9AB1AF71D3E7921008CAE76 /* CZMusicPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZMusicPlayerController.h; sourceTree = "<group>"; };
+		D9AB1AF81D3E7921008CAE76 /* CZMusicPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZMusicPlayerController.m; sourceTree = "<group>"; };
+		D9AB1AFB1D3E7982008CAE76 /* MDRRotateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRRotateController.h; sourceTree = "<group>"; };
+		D9AB1AFC1D3E7982008CAE76 /* MDRRotateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRRotateController.m; sourceTree = "<group>"; };
 		D9AE9DBF1CF1986E00EF7240 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -473,6 +482,7 @@
 		D98400B11D1EE19100BDE614 /* customTransition */ = {
 			isa = PBXGroup;
 			children = (
+				D9AB1AF41D3E7921008CAE76 /* Rotate */,
 				D98400B21D1EE1DF00BDE614 /* Swipe */,
 			);
 			path = customTransition;
@@ -509,6 +519,19 @@
 				D98400BE1D1EE1DF00BDE614 /* MDRSwipeTwoController.m */,
 			);
 			path = SwipeVcs;
+			sourceTree = "<group>";
+		};
+		D9AB1AF41D3E7921008CAE76 /* Rotate */ = {
+			isa = PBXGroup;
+			children = (
+				D9AB1AF51D3E7921008CAE76 /* CZCustomTransitionAnimator.h */,
+				D9AB1AF61D3E7921008CAE76 /* CZCustomTransitionAnimator.m */,
+				D9AB1AF71D3E7921008CAE76 /* CZMusicPlayerController.h */,
+				D9AB1AF81D3E7921008CAE76 /* CZMusicPlayerController.m */,
+				D9AB1AFB1D3E7982008CAE76 /* MDRRotateController.h */,
+				D9AB1AFC1D3E7982008CAE76 /* MDRRotateController.m */,
+			);
+			path = Rotate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -585,9 +608,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9AB1AFD1D3E7982008CAE76 /* MDRRotateController.m in Sources */,
 				D95891281D0341AC00C08641 /* MASConstraint.m in Sources */,
 				D95891341D0342B600C08641 /* MDRRecordScreenController.m in Sources */,
 				D95890CF1D033EB600C08641 /* MDRListController.m in Sources */,
+				D9AB1AFA1D3E7921008CAE76 /* CZMusicPlayerController.m in Sources */,
 				D95891301D0341AC00C08641 /* ViewController+MASAdditions.m in Sources */,
 				D95890D21D033EB600C08641 /* MDRRecordVedioController.m in Sources */,
 				D95890CA1D033EB600C08641 /* MDRCustomThree.m in Sources */,
@@ -615,6 +640,7 @@
 				D98400C31D1EE1DF00BDE614 /* MDRSwipeTwoController.m in Sources */,
 				D98400BF1D1EE1DF00BDE614 /* MDRSwipeTransitionAnimator.m in Sources */,
 				D958912A1D0341AC00C08641 /* MASLayoutConstraint.m in Sources */,
+				D9AB1AF91D3E7921008CAE76 /* CZCustomTransitionAnimator.m in Sources */,
 				D947B0841D0D53C30059728D /* TimelineController.m in Sources */,
 				D93DFD171CD493F400A62377 /* main.m in Sources */,
 			);
