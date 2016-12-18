@@ -86,8 +86,8 @@
     } else {
     
         // 忽略前面3个并且向下移动
-        CGFloat x = ((indexPath.item - 3) % 3) * itemW;
-        CGFloat y = ((indexPath.item - 3) / 3) * itemH + biggerH;
+        CGFloat x = ((indexPath.item - 3) % 2) * itemW;
+        CGFloat y = ((indexPath.item - 3) / 2) * itemH + biggerH;
         
         attr.frame = CGRectMake(x, y, itemW, itemH);
     }
