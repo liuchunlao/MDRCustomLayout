@@ -34,6 +34,9 @@ NSString * const cellId = @"liner";
     
     UICollectionView *collectionV = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:linerLayout];
     
+#warning - iOS 10以后以为预设二出现闪屏的问题
+    collectionV.prefetchingEnabled = NO;
+    
     collectionV.backgroundColor = [UIColor lightGrayColor];
     
     collectionV.dataSource = self;

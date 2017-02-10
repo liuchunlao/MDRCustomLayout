@@ -77,13 +77,19 @@
         CGFloat scale = 1 - distance / self.collectionView.bounds.size.width * 0.3;
         
         // 设置缩放效果
-        newAttr.transform3D = CATransform3DScale(attr.transform3D, scale, scale, 1);
+        CATransform3D transform3D = newAttr.transform3D;
+        
+        transform3D = CATransform3DScale(attr.transform3D, scale, scale, 1);
         
         // 设置旋转效果
         // 判断角度值的正负
         BOOL isLeft = ((newAttr.center.x - screenCenterX) > 0) ? YES : NO;
         CGFloat angle = scale * M_PI * 2 * (isLeft ? 1 : -1);
-        newAttr.transform3D = CATransform3DRotate(newAttr.transform3D, angle, 0, 1, 0);
+        
+        transform3D.m34 = - 1.0 / 500;
+        transform3D = CATransform3DRotate(transform3D, angle, 0, 1, 0);
+        
+        newAttr.transform3D = transform3D;
         
 //        NSLog(@"%f", scale);
         
