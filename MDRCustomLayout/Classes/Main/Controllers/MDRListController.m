@@ -51,6 +51,8 @@ NSString * const cellID = @"cellID";
     Class calssName = NSClassFromString(vcStr);
     UIViewController *obj = [[calssName alloc] init];
     
+    NSAssert([obj isKindOfClass:[UIViewController class]], @"%@ - 类名有错误", vcStr);
+    
     obj.navigationItem.title = cellItem[@"title"];
     
     if (obj != nil) {

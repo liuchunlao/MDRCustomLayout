@@ -228,15 +228,20 @@
     UIView *containerV = [[UIView alloc] init];
     [self.view addSubview:containerV];
     _containView = containerV;
-    
-    NSArray *titleArr = @[@"UIImagePickerController", @"AVFoundation", @"AVCaptureOutput & AVAssetWriter"];
+    NSArray *titleArr = @[@"UIImagePickerController", @" ", @" "];
+//    NSArray *titleArr = @[@"UIImagePickerController", @"AVFoundation", @"AVCaptureOutput & AVAssetWriter"];
     
     [titleArr enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
        
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         
         [btn setTitle:obj forState:UIControlStateNormal];
-        btn.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0];
+        [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        btn.backgroundColor = [UIColor whiteColor];
+        
+        if (idx > 0) {
+            btn.enabled = NO;
+        }
         
         [_containView addSubview:btn];
         

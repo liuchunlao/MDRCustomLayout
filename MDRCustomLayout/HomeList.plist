@@ -79,5 +79,18 @@
 			</dict>
 		</array>
 	</dict>
+	<dict>
+		<key>header</key>
+		<string>take-out</string>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>MTWM</string>
+				<key>targetVc</key>
+				<string>MTShopViewController</string>
+			</dict>
+		</array>
+	</dict>
 </array>
 </plist>
