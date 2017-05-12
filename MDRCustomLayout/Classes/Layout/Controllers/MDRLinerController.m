@@ -58,7 +58,14 @@ NSString * const cellId = @"liner";
     
 }
 
+#pragma mark - deleage
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 
+    [collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+    
+    
+
+}
 
 
 #pragma mark - dataSource
